@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="navbar">
       {/* Logo Section */}
       <div className="logo">
-        <span>Sportofolio</span>
+        <img src="./src/assets/logo.png" alt="Sportofolio Logo" className="logo-img" />
       </div>
 
       {/* Navbar Links */}

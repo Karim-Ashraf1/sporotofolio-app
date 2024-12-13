@@ -1,0 +1,82 @@
+.post {
+    background-color: #181818;
+    border: 1px solid #2d2d2d;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 20px auto;
+    width: 500px;
+    height: auto;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.post-profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-user-name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    font-size: 16px;
+}
+
+.post-time {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #888;
+    font-size: 14px;
+    margin: 0;
+}
+
+.post-content {
+    margin: 16px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.post-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 12px;
+    
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-action-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #cccccc;
+    background-color: #181818;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.post-action-btn:hover {
+    background-color: #2d2d2d;
+}
+.iconpadding{
+    padding-right: 10px;
+}
