@@ -39,7 +39,7 @@
 .navbar-links a {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    color: #535353;
+    color: #858585;
     text-decoration: none;
     font-size: 18px;
     padding: 8px 12px; 
@@ -55,7 +55,7 @@
 .profile {
     display: flex;
     align-items: center;
-    color: #b0b3b8;
+    color: #858585;
     padding-right: 60px;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .greeting {
-    color: #a5a5a5;
+    color: #858585;
 }
 
 .profile-text p {
