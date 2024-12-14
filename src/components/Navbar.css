@@ -21,7 +21,7 @@
 .navbar-links {
     list-style: none;
     display: flex;
-    gap: 38px; 
+    gap: 240px; 
     margin: 0; 
     justify-content: center;
     flex-grow: 1; 
