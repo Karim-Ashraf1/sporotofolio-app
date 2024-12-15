@@ -1,23 +1,22 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Post from './components/Post';
 import LeftMenu from './components/LeftMenu';
+import Post from './components/Post';
+import RightMenu from './components/RightMenu';
 import './Home.css';
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <div>
       <Navbar />
-      <div className="sidebar-container">
+      <div className="home-layout">
         <LeftMenu />
-        <div className="main-content">
-          <div className="posts-container">
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-          </div>
+        <div className="posts-container">
+          <Post />
+          <Post />
+          <Post />
         </div>
+        <RightMenu />
       </div>
     </div>
   );
