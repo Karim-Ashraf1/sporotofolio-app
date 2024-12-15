@@ -21,10 +21,11 @@
 .menu-item {
     display: flex;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
+    border-radius: 14px;
 }
 .menu-textcopy{
     font-weight: 400;
@@ -33,6 +34,7 @@
 
 .menu-item:hover {
     background-color: #2d2d2d;
+    color: white;
 }
 
 .menu-icon {
