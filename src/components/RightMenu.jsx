@@ -18,21 +18,6 @@ const RightMenu = () => {
       name: 'Cristiano Ronaldo',
       bio: 'Club Manager',
     },
-    {
-        photo: './src/assets/account.png',
-        name: 'Cristiano Ronaldo',
-        bio: 'Football Player',
-      },
-      {
-        photo: './src/assets/account.png',
-        name: 'Cristiano Ronaldo',
-        bio: 'Football Coach',
-      },
-      {
-        photo: './src/assets/account.png',
-        name: 'Cristiano Ronaldo',
-        bio: 'Club Manager',
-      },
   ];
 
   return (

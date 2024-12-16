@@ -9,21 +9,19 @@
 }
 
 .posts-container {
-  max-width: 700px; /* Optional: Limit the width for better readability */
-  display: flex;
+  max-width: 700px;
   flex-direction: column;
   gap: 20px;
   padding: 14px;
-  margin: 0 auto; /* Centers the posts container horizontally */
+  margin: 0 auto;
   background-color: #0a0a0a;
 }
 
 .left-menu {
-  width: 250px; /* Fixed width for consistency */
+  width: 250px; 
   margin-right: 30px;
 }
 
 .right-menu {
-  width: 300px; /* Fixed width for consistency */
   margin-left: 30px;
 }
