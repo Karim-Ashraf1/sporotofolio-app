@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import Home from './Home';
+import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import Home from "./Home";
+import Login from "./components/Login/Login";
+import Signup from "./components/Signup/Signup";
 
 function App() {
     const [isAuthorized, setIsAuthorized] = useState(false);
@@ -15,18 +17,10 @@ function App() {
                 <Route
                     path="/"
                     element={
-                        isAuthorized ? (
-                            <Navigate to="/home" />
-                        ) : (
-                            <div style={{ textAlign: 'center', marginTop: '20px' }}>
-                                <h1>Sportofolio Login</h1>
-                                <button onClick={handleLogin} style={{ padding: '10px 20px', fontSize: '16px' }}>
-                                    Login
-                                </button>
-                            </div>
-                        )
+                        isAuthorized ? <Navigate to="/home" replace /> : <Login onLogin={handleLogin} />
                     }
                 />
+                <Route path="/signup" element={<Signup />} />
                 <Route path="/home" element={<Home />} />
             </Routes>
         </Router>
