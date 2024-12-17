@@ -13,7 +13,7 @@ const Signup = () => {
         e.preventDefault();
         if (password === confirmPassword && name && email) {
             alert("Account created successfully!");
-            navigate("/login"); // Redirect to login page after successful signup
+            navigate("/");
         } else {
             alert("Please fill out all fields correctly.");
         }
