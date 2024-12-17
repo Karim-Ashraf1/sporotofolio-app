@@ -13,7 +13,7 @@ const Signup = () => {
         e.preventDefault();
         if (password === confirmPassword && name && email) {
             alert("Account created successfully!");
-            navigate("/");
+            navigate("/login"); // Redirect to login page after successful signup
         } else {
             alert("Please fill out all fields correctly.");
         }
@@ -107,7 +107,7 @@ const Signup = () => {
                                     <a 
                                         href="#" 
                                         className="text-white" 
-                                        onClick={() => navigate("/Login")}
+                                        onClick={() => navigate("/")}
                                     >
                                         Login
                                     </a>

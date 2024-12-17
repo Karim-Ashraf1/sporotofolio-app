@@ -66,7 +66,11 @@ const Login = ({ onLogin }) => {
                                 </div>
                                 <div className="forgot pt-2">
                                     <small>
-                                        <a href="#" className="text-white">
+                                        <a
+                                            href="#"
+                                            className="text-white"
+                                            onClick={() => navigate("/ForgetPassword")}
+                                         >
                                             Forgot Password?
                                         </a>
                                     </small>
