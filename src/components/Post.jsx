@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaThumbsUp, FaComment, FaShare } from 'react-icons/fa';
+import { FaThumbsUp, FaComment, FaRetweet  } from 'react-icons/fa';
 import './Post.css';
 
 const Post = () => {
@@ -32,8 +32,8 @@ const Post = () => {
           Comment
         </button>
         <button className="post-action-btn">
-          <FaShare className="iconpadding" />
-          Share
+          <FaRetweet className="iconpadding" />
+          Repost
         </button>
       </div>
     </div>

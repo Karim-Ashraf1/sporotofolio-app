@@ -63,6 +63,7 @@
     border-top: 1px solid #2d2d2d;
     padding-top: 12px;
 }
+
 .post-action-btn {
     display: flex;
     align-items: center;
@@ -76,6 +77,7 @@
 
 .post-action-btn:hover {
     background-color: #2d2d2d;
+    border-radius: 14px;
 }
 
 .iconpadding {
