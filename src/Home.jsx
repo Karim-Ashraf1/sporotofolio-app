@@ -11,7 +11,7 @@ const Home = () => {
       <Navbar />
       <div className="home-layout">
         <LeftMenu />
-        <div className="posts-container">
+        <div className="custom-post-container">
           <Post />
           <Post />
           <Post />
