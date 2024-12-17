@@ -1,15 +1,11 @@
 import React from 'react';
 import './LeftMenu.css';
-import { FaUser, FaSearch, FaCompass, FaPlus, FaCog, FaSignOutAlt, FaRegFileAlt } from 'react-icons/fa';
+import { FaUser, FaSearch, FaCompass, FaPlus, FaCog, FaSignOutAlt, FaRegFileAlt,FaShoppingCart } from 'react-icons/fa';
 
 const LeftMenu = () => {
   return (
     <div className="left-menu">
       <ul className="menu-items">
-        <li className="menu-item">
-          <FaUser className="menu-icon" />
-          <span className="menu-text">My Profile</span>
-        </li>
         <li className="menu-item">
           <FaSearch className="menu-icon" />
           <span className="menu-text">Search</span>
@@ -25,6 +21,10 @@ const LeftMenu = () => {
         <li className="menu-item">
           <FaUser className="menu-icon" />
           <span className="menu-text">Network</span>
+        </li>
+        <li className="menu-item">
+          <FaShoppingCart className="menu-icon" />
+          <span className="menu-text">Shop</span>
         </li>
         <li className="menu-item">
           <FaCog className="menu-icon" />
