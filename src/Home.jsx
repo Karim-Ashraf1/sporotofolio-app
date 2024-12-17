@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import LeftMenu from './components/LeftMenu';
 import Post from './components/Post';
 import RightMenu from './components/RightMenu';
+import ProfileCard from './components/ProfileCard';
 import './Home.css';
 
 const Home = () => {
@@ -16,7 +17,10 @@ const Home = () => {
           <Post />
           <Post />
         </div>
-        <RightMenu />
+        <div className="right-side">
+          <ProfileCard />
+          <RightMenu />
+        </div>
       </div>
     </div>
   );
