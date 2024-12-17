@@ -8,9 +8,9 @@ body{
 .box-area{
     width: 930px;
 }
-.loginconatiner{
+.login-container {  
     background-color: #191919;
-    border-color: #191919;
+    border: 1px solid #191919; 
 }
 .loginbtn{
     background-color: #2EB62B;

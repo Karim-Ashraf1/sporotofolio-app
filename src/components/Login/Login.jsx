@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Login.css";
 
 const Login = ({ onLogin }) => {
@@ -18,7 +19,7 @@ const Login = ({ onLogin }) => {
 
     return (
         <div className="container d-flex justify-content-center align-items-center min-vh-100">
-            <div className="row rounded-5 p-0 shadow box-area loginconatiner">
+            <div className="row rounded-5 p-0 shadow box-area login-container">
                 {/* Left Section */}
                 <div className="col-md-6 rounded-4 d-flex flex-column justify-content-center align-items-center left-box">
                     <div className="featured-image mb-3">
