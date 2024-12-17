@@ -4,7 +4,7 @@ import SearchBar from './SearchBar';
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className="navbarr">
       <div className="logo-search-container">
         <div className="logo">
           <img
