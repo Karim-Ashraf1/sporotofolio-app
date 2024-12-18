@@ -1,8 +1,16 @@
 import React from 'react';
 import './LeftMenu.css';
+import Login from "./Login/Login";
 import { FaUser, FaSearch, FaCompass, FaPlus, FaCog, FaSignOutAlt, FaRegFileAlt,FaShoppingCart } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 const LeftMenu = () => {
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    navigate('/', { replace: true });
+  };
+
   return (
     <div className="left-menu">
       <ul className="menu-items">
@@ -30,7 +38,7 @@ const LeftMenu = () => {
           <FaCog className="menu-icon" />
           <span className="menu-text">Settings</span>
         </li>
-        <li className="menu-item">
+        <li className="menu-item" onClick={handleLogout}>
           <FaSignOutAlt className="menu-icon" />
           <span className="menu-text">Logout</span>
         </li>
