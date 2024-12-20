@@ -15,15 +15,6 @@ const Navbar = () => {
         </div>
         <SearchBar />
       </div>
-
-      <ul className="navbar-links">
-        <li>
-          <a href="#foryou">For You</a>
-        </li>
-        <li>
-          <a href="#network">Following</a>
-        </li>
-      </ul>
       <div className="profile">
         <img src="./src/assets/profile pic.png" alt="Profile" />
         <div className="profile-text">

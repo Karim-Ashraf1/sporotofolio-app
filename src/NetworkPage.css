@@ -1,0 +1,29 @@
+.network-page {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+  }
+  
+  .network-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+  }
+  

@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 import Home from "./Home";
 import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
-import ForgetPassword from "./components/Forget-Password/ForgetPassword"
+import ForgetPassword from "./components/Forget-Password/ForgetPassword";
 import CoachProfile from "./components/CoachProfile/CoachProfile";
+import NetworkPage from "./NetworkPage"; 
 
 function App() {
     const [isAuthorized, setIsAuthorized] = useState(false);
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/ForgetPassword" element={<ForgetPassword />} />
                 <Route path="/CoachProfile" element={<CoachProfile />} />
                 <Route path="/home" element={<Home />} />
+                <Route path="/network" element={<NetworkPage />} /> 
             </Routes>
         </Router>
     );

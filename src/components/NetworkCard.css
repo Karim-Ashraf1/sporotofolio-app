@@ -1,0 +1,136 @@
+.player-card {
+    width: 100%;
+    max-width: 350px;
+    background-color: #171717;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+  
+.cover-photo {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+  }
+  
+.cover-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.player-photo-container {
+    position: relative;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+  
+.player-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #171717;
+    object-fit: cover;
+}
+  
+.player-content {
+    text-align: left;
+}
+  
+.player-info {
+    flex: 1;
+    text-align: left;
+}
+.player-name {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+  
+.qr-code {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+  
+.player-position {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2eb62b;
+    margin: 5px 0;
+}
+  
+.club-info {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+.player-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.player-club {
+    font-size: 14px;
+    font-weight: 400;
+    color: #a5a5a5;
+    margin: 0;
+    padding-top: 5px;
+}
+  
+.club-logo {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-right: 4px;
+}
+  
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+  
+.follow-button,
+.network-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.follow-button {
+    background-color: #2eb62b;
+    color: white;
+}
+  
+.follow-button:hover {
+    background-color: #249d24;
+}
+  
+.network-button {
+    background-color: #1a73e8;
+    color: white;
+}
+  
+.network-button:hover {
+    background-color: #155db2;
+}
+  
