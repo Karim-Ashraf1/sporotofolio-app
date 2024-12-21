@@ -57,6 +57,10 @@ hr {
     padding-left: 10px;
 }
 
+.menu-item.active {
+    color: #04be3e;
+}
+
 @media (max-width: 768px) {
     .left-menu {
         width: 200px;
