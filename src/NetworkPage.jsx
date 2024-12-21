@@ -2,6 +2,7 @@ import React from 'react';
 import NetworkCard from './components/NetworkCard';
 import Navbar from './components/Navbar';
 import './NetworkPage.css';
+import LeftMenu from './components/LeftMenu';
 
 const NetworkPage = () => {
   const players = [
@@ -36,6 +37,7 @@ const NetworkPage = () => {
       <div className="search-container">
       <Navbar />
       </div>
+      <LeftMenu />
       <div className="cards-container">
         {players.map((player, index) => (
           <NetworkCard
