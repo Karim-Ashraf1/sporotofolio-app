@@ -42,7 +42,7 @@ const LeftMenu = () => {
           <FaRegFileAlt className="menu-icon" />
           <span className="menu-text">Terms & Policies</span>
         </li>
-        <li className="menu-item">
+        <li className="menu-itemC">
           <span className="menu-textcopy">© 2024 Sportofolio</span>
         </li>
       </ul>

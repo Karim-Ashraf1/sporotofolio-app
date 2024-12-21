@@ -1,7 +1,7 @@
-.player-card {
+.sp-player-card {
     width: 100%;
-    max-width: 280px;
-    background-color: #171717;
+    max-width: 350px;
+    background-color: #0a0a0a;
     color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
@@ -9,129 +9,95 @@
     overflow: hidden;
     text-align: center;
     padding: 20px;
+    border-bottom: 1px solid #858585; 
 }
   
-.cover-photo {
+  .cover-photo {
     width: 100%;
-    height: 90px;
+    height: 120px;
     overflow: hidden;
-}
+  }
   
-.cover-img {
+  .cover-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+  }
   
-.player-photo-container {
+  .player-photo-container {
     position: relative;
     margin-top: -50px;
     display: flex;
     justify-content: center;
     z-index: 2;
-}
+  }
   
-.player-photo {
+  .player-photo {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 4px solid #171717;
+    border: 4px solid #0a0a0a;
     object-fit: cover;
-}
+  }
   
-.player-content {
+  .player-content {
     text-align: left;
-}
+  }
   
-.player-info {
+  .player-info {
     flex: 1;
     text-align: left;
-}
-.player-name {
-    font-size: 18px;
+  }
+  
+  .sp-player-name{
+    font-size: 20px;
     margin-bottom: 8px;
     font-weight: 600;
-}
-  
-.qr-code {
+  }
+  .qr-codde {
     width: 60px;
     height: 60px;
     object-fit: contain;
     margin-left: 20px;
-}
-  
-.player-position {
+  }
+  .player-position {
     text-align: left;
     font-size: 16px;
     font-weight: 400;
-    color: #2eb62b;
+    color: #04be3e;
     margin: 5px 0;
-}
+  }
   
-.club-info {
+  .club-info {
     display: flex;
     align-items: center;
     gap: 3px;
     flex-direction: row-reverse;
     justify-content: flex-end;
     margin-top: 5px;
-}
-
-.player-header {
+  }
+  
+  .player-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    margin-top: 20px;
     gap: 20px;
-}
-
-.player-club {
+  }
+  
+  .player-club {
     font-size: 14px;
     font-weight: 400;
     color: #a5a5a5;
     margin: 0;
     padding-top: 5px;
-}
+  }
   
-.club-logo {
+  .club-logo {
     width: 24px;
     height: 24px;
     object-fit: contain;
     margin-right: 4px;
-}
-  
-.action-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-  
-.follow-button,
-.network-button {
-    padding: 8px 16px;
-    font-size: 14px;
-    font-weight: 600;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-  
-.follow-button {
-    background-color: #2eb62b;
-    color: white;
-}
-  
-.follow-button:hover {
-    background-color: #249d24;
-}
-  
-.network-button {
-    background-color: #1a73e8;
-    color: white;
-}
-  
-.network-button:hover {
-    background-color: #155db2;
-}
+  }
   

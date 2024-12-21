@@ -3,6 +3,8 @@ import NetworkCard from './components/NetworkCard';
 import Navbar from './components/Navbar';
 import './NetworkPage.css';
 import LeftMenu from './components/LeftMenu';
+import RightMenu from './components/RightMenu';
+import ProfileID from './components/ProfileID';
 
 const NetworkPage = () => {
   const players = [
@@ -30,6 +32,7 @@ const NetworkPage = () => {
       clubLogo: './src/assets/al-hilal-logo.png',
       qrCode: './src/assets/qr-code3.png',
     },
+    
   ];
 
   return (
@@ -51,6 +54,10 @@ const NetworkPage = () => {
           />
         ))}
       </div>
+      <div className="right-side">
+          <ProfileID />
+          <RightMenu />
+        </div>
     </div>
   );
 };

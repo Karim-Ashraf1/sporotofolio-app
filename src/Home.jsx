@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import LeftMenu from './components/LeftMenu';
 import Post from './components/Post';
 import RightMenu from './components/RightMenu';
-import NetworkCard from './components/NetworkCard';
+import ProfileID from './components/ProfileID';
 import './Home.css';
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
           <Post />
         </div>
         <div className="right-side">
-          <NetworkCard />
+          <ProfileID />
           <RightMenu />
         </div>
       </div>

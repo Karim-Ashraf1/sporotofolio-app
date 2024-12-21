@@ -28,6 +28,15 @@
     transition: background-color 0.3s;
     border-radius: 14px;
 }
+.menu-itemC {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 14px;
+}
 .menu-textcopy{
     font-weight: 400;
     padding-top: 50px;
