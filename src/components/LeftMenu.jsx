@@ -12,11 +12,10 @@ const LeftMenu = () => {
   };
 
   const menuItems = [
-    { path: '/search', icon: <FaSearch className="menu-icon" />, label: 'Search' },
     { path: '/home', icon: <FaCompass className="menu-icon" />, label: 'Explore' },
     { path: '/upload', icon: <FaPlus className="menu-icon" />, label: 'Upload' },
     { path: '/network', icon: <FaUser className="menu-icon" />, label: 'Network' },
-    { path: '/shop', icon: <FaShoppingCart className="menu-icon" />, label: 'Shop' },
+    { path: '/store', icon: <FaShoppingCart className="menu-icon" />, label: 'Store' },
     { path: '/settings', icon: <FaCog className="menu-icon" />, label: 'Settings' },
   ];
 
