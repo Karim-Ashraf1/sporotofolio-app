@@ -287,6 +287,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 2rem 0;
+  padding-top: 70px;
 }
 
 .search-form {
@@ -295,7 +296,7 @@ footer {
   width: 60%;
   max-width: 600px;
   background-color: #333;
-  border: 2px solid #2EB62B;
+  border: 2px solid #333;
   border-radius: 25px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
@@ -308,6 +309,7 @@ footer {
   outline: none;
   font-size: 1rem;
   color: #fff;
+  color: #333;
   background-color: transparent;
 }
 
