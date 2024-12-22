@@ -5,7 +5,10 @@ import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
 import ForgetPassword from "./components/Forget-Password/ForgetPassword";
 import CoachProfile from "./components/CoachProfile/CoachProfile";
+import PlayerProfile from "./components/PlayerProfile/PlayerProfile";
 import NetworkPage from "./NetworkPage"; 
+import Store from "./components/Store/Store";
+
 
 function App() {
     const [isAuthorized, setIsAuthorized] = useState(false);
@@ -26,8 +29,10 @@ function App() {
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/ForgetPassword" element={<ForgetPassword />} />
                 <Route path="/CoachProfile" element={<CoachProfile />} />
+                <Route path="/PlayerProfile" element={<PlayerProfile />} /> 
                 <Route path="/home" element={<Home />} />
                 <Route path="/network" element={<NetworkPage />} /> 
+                <Route path="/store" element={<Store />} />
             </Routes>
         </Router>
     );
