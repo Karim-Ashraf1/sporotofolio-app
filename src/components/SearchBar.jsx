@@ -9,7 +9,7 @@ const SearchBar = () => {
       <input
         type="text"
         placeholder="Search..."
-        className="search-input"
+        className="sp-search-input"
       />
     </div>
   );

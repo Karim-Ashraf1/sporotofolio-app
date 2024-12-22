@@ -3,7 +3,7 @@
     width: 300px;
 }
 
-.search-input {
+.sp-search-input {
     padding: 8px 12px 8px 36px;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -15,7 +15,7 @@
     outline: none;
 }
 
-.search-input::placeholder {
+.sp-search-input::placeholder {
     color: #888888;
 }
 
