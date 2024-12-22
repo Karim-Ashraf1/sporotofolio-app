@@ -3,6 +3,8 @@ import "./Store.css";
 import googleImage from "../../assets/google.png";
 import LeftMenu from '../LeftMenu';
 import Navbar from "../Navbar"; 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 const Store = () => {
     const [cartItems, setCartItems] = useState([
@@ -38,7 +40,7 @@ const Store = () => {
             arrival: "Saturday, Mei 18",
         },
         {
-            id: 2,
+            id: 1,
             title: "جمبري بورسعي جامبو",
             image: googleImage,
             price: "$100",
@@ -64,116 +66,6 @@ const Store = () => {
             reviews: 1222,
             arrival: "Saturday, Mei 18",
         },
-        {
-            id: 1,
-            title: "LM10 official Boots WC 2022",
-            image: googleImage,
-            price: "$34.95",
-            rating: "★★★★☆",
-            reviews: 1222,
-            arrival: "Saturday, Mei 18",
-        },
-        {
-            id: 1,
-            title: "LM10 official Boots WC 2022",
-            image: googleImage,
-            price: "$34.95",
-            rating: "★★★★☆",
-            reviews: 1222,
-            arrival: "Saturday, Mei 18",
-        },
-        {
-            id: 1,
-            title: "LM10 official Boots WC 2022",
-            image: googleImage,
-            price: "$34.95",
-            rating: "★★★★☆",
-            reviews: 1222,
-            arrival: "Saturday, Mei 18",
-        },
-        {
-            id: 1,
-            title: "LM10 official Boots WC 2022",
-            image: googleImage,
-            price: "$34.95",
-            rating: "★★★★☆",
-            reviews: 1222,
-            arrival: "Saturday, Mei 18",
-        },
-        {
-            id: 1,
-            title: "LM10 official Boots WC 2022",
-            image: googleImage,
-            price: "$34.95",
-            rating: "★★★★☆",
-            reviews: 1222,
-            arrival: "Saturday, Mei 18",
-        },
-        {
-            id: 1,
-            title: "LM10 official Boots WC 2022",
-            image: googleImage,
-            price: "$34.95",
-            rating: "★★★★☆",
-            reviews: 1222,
-            arrival: "Saturday, Mei 18",
-        },
-        {
-            id: 1,
-            title: "LM10 official Boots WC 2022",
-            image: googleImage,
-            price: "$34.95",
-            rating: "★★★★☆",
-            reviews: 1222,
-            arrival: "Saturday, Mei 18",
-        },
-        {
-            id: 1,
-            title: "LM10 official Boots WC 2022",
-            image: googleImage,
-            price: "$34.95",
-            rating: "★★★★☆",
-            reviews: 1222,
-            arrival: "Saturday, Mei 18",
-        },
-        {
-            id: 1,
-            title: "LM10 official Boots WC 2022",
-            image: googleImage,
-            price: "$34.95",
-            rating: "★★★★☆",
-            reviews: 1222,
-            arrival: "Saturday, Mei 18",
-        },
-        {
-            id: 1,
-            title: "LM10 official Boots WC 2022",
-            image: googleImage,
-            price: "$34.95",
-            rating: "★★★★☆",
-            reviews: 1222,
-            arrival: "Saturday, Mei 18",
-        },
-        {
-            id: 1,
-            title: "LM10 official Boots WC 2022",
-            image: googleImage,
-            price: "$34.95",
-            rating: "★★★★☆",
-            reviews: 1222,
-            arrival: "Saturday, Mei 18",
-        },
-        {
-            id: 1,
-            title: "LM10 official Boots WC 2022",
-            image: googleImage,
-            price: "$34.95",
-            rating: "★★★★☆",
-            reviews: 1222,
-            arrival: "Saturday, Mei 18",
-        },
-
-        // Add more products here
     ];
 
     const handleSearch = (event) => {
@@ -223,7 +115,7 @@ const Store = () => {
         <div>
             <Navbar />
             <LeftMenu />
-
+         <div className="mx-5">
             {/* Search Bar */}
             <div className="search-bar-container">
                 <form className="search-form" onSubmit={(e) => e.preventDefault()}>
@@ -369,6 +261,7 @@ const Store = () => {
                     </div>
                 </div>
             </div>
+          </div> 
         </div>
     );
 };

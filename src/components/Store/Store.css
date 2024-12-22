@@ -227,7 +227,7 @@ footer {
 
 
 .cart-modal.open {
-  display: flex; /* Flex makes it visible */
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -268,7 +268,6 @@ footer {
   justify-content: space-between;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
   .product-card {
     flex: 1 1 calc(50% - 20px);
@@ -281,7 +280,6 @@ footer {
   }
 }
 
-/* Search Bar */
 .search-bar-container {
   display: flex;
   justify-content: center;
@@ -309,7 +307,6 @@ footer {
   outline: none;
   font-size: 1rem;
   color: #fff;
-  color: #333;
   background-color: transparent;
 }
 
@@ -338,3 +335,12 @@ footer {
     width: 90%;
   }
 }
+/* .sp-store-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+} */
