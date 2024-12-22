@@ -35,8 +35,8 @@ const RightMenu = () => {
               <p className="account-name">{account.name}</p>
               <p className="account-bio">{account.bio}</p>
             </div>
-            <button className="follow-button">
-              <span className="plus-icon">+</span>
+            <button className="sp-follow-button">
+              <span className="plus-icon">Follow</span>
             </button>
           </div>
         ))}
