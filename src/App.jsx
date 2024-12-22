@@ -8,7 +8,7 @@ import CoachProfile from "./components/CoachProfile/CoachProfile";
 import PlayerProfile from "./components/PlayerProfile/PlayerProfile";
 import NetworkPage from "./NetworkPage"; 
 import Store from "./components/Store/Store";
-
+import Policy from "./components/Policies/Policy";
 
 function App() {
     const [isAuthorized, setIsAuthorized] = useState(false);
@@ -33,6 +33,7 @@ function App() {
                 <Route path="/home" element={<Home />} />
                 <Route path="/network" element={<NetworkPage />} /> 
                 <Route path="/store" element={<Store />} />
+                <Route path="/policies" element={<Policy />} /> 
             </Routes>
         </Router>
     );
