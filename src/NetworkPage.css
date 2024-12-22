@@ -25,7 +25,8 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
-    padding-top: 86px;
+    margin-left: 160px;
+    margin-right: 200px;
+    margin-top: 86px;
   }
   
