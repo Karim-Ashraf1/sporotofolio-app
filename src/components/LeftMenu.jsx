@@ -37,7 +37,7 @@ const LeftMenu = () => {
           <span className="menu-text">Logout</span>
         </li>
         <hr />
-        <li className="menu-item">
+        <li className="menu-item" onClick={() => navigate('/Policies')}>
           <FaRegFileAlt className="menu-icon" />
           <span className="menu-text">Terms & Policies</span>
         </li>
