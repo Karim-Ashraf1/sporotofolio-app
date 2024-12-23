@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./PlayerProfile.css";
 import Navbar from '../Navbar';
 import LeftMenu from "../LeftMenu";
-import RightMenu from "../RightMenu";
+import { FaCog } from 'react-icons/fa';
 
 const PlayerProfile = () => {
   useEffect(() => {
@@ -46,25 +46,31 @@ const PlayerProfile = () => {
             <div className="profile-cover-photo">
               <img src="src\assets\cover.webp" alt="Cover" className="pofile-cover-img" />
             </div>
-            <div className="profile-header">
+            <div className="pprofile-header">
             <img
               src="src\assets\profile pic.png"
               alt="Profile Picture"
               className="pprofile-picture"
             />
-            <div className="profile-info">
-              <h1 className="profile-name">Zeyad Waleed</h1>
-              <p className="profile-location">Cairo, Egypt</p>
-              <button className="edit-button">Edit Profile</button>
-              <div className="profile-stats">
-                <span>1M Followers</span> | <span>30K Ratings</span>
+            <div className="d-flex justify-content-between align-center">
+              <div className="profile-info">
+                <h1 className="profile-name">Zeyad Waleed</h1>
+                <p className="profile-bio">
+                  Talented goalkeeper currently playing for Al Ahly, one of
+                  Egypt's most prestigious football clubs. Born and raised in
+                  Cairo.
+                </p>
+                <div className="profile-stats">
+                  <span>1M Followers</span> | <span>30K Ratings</span>
+                </div>
               </div>
-              <p className="profile-bio">
-                Talented goalkeeper currently playing for Al Ahly, one of
-                Egypt's most prestigious football clubs. Born and raised in
-                Cairo.
-              </p>
-            </div>
+              <div className="d-flex gap-3">
+                <button className="edit-button">Edit Profile</button>
+                <button className="edit-button icon-button">
+                  <FaCog />
+                </button>
+              </div>
+            </div>  
         </div>
           {/* Navigation Tabs */}
           <div className="profile-tabs">
