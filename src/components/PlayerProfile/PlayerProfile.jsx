@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./PlayerProfile.css";
 import Navbar from '../Navbar';
 import LeftMenu from "../LeftMenu";
-import { FaCog } from 'react-icons/fa';
+import { FaCog, FaCheckCircle } from 'react-icons/fa';
 
 const PlayerProfile = () => {
   useEffect(() => {
@@ -54,7 +54,10 @@ const PlayerProfile = () => {
             />
             <div className="d-flex justify-content-between align-center">
               <div className="profile-info">
-                <h1 className="profile-name">Zeyad Waleed</h1>
+              <h1 className="profile-name">
+                Zeyad Waleed
+                <FaCheckCircle className="verification-icon" />
+              </h1>
                 <p className="profile-bio">
                   Talented goalkeeper currently playing for Al Ahly, one of
                   Egypt's most prestigious football clubs. Born and raised in

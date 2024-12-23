@@ -152,7 +152,7 @@ a {
 
 .details-title {
   font-size: 24px;
-  color: #2EB62B;
+  color: #04be3e;
   margin-bottom: 20px;
 }
 
@@ -172,7 +172,7 @@ a {
 }
 
 .detail-item h3 {
-  color: #2EB62B;
+  color: #04be3e;
   margin-bottom: 10px;
 }
 
@@ -212,12 +212,12 @@ footer {
 }
 
 .profile-tabs .tab:hover {
-  color: #2EB62B;
+  color: #04be3e;
 }
 
 .profile-tabs .tab.active {
-  color: #2EB62B;
-  border-bottom: 2px solid #2EB62B;
+  color: #04be3e;
+  border-bottom: 2px solid #04be3e;
 }
 
 /* Profile Content */
@@ -279,8 +279,13 @@ footer {
 .details-grid .detail-item i {
   font-size: 24px; 
   margin-right: 10px; 
-  color: #4CAF50; 
+  color: #04be3e; 
 }
 
-
+.verification-icon {
+  color: #04be3e;
+  font-size: 20px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
 
