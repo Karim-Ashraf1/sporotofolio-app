@@ -45,7 +45,7 @@ a {
 
 /* Main Profile Section */
 .profile-section {
-  width: 1000px;
+  width: 1100px;
   padding: 90px 90px;
   margin-left: 300px;
   text-align: center;
@@ -60,10 +60,27 @@ a {
   margin-bottom: 40px;
 }
 
-.profile-picture {
+.profile-cover-photo {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: -130px;
+  border-radius: 8px 8px 0 0;
+}
+
+.pofile-cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pprofile-picture {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  border: 4px solid #0a0a0a;
+  position: relative;
+  z-index: 2;
 }
 
 .profile-info {

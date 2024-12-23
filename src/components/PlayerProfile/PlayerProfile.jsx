@@ -42,13 +42,15 @@ const PlayerProfile = () => {
       <Navbar />
       <LeftMenu />
       {/* <RightMenu /> */}
-      <main>
-        <section className="profile-section">
-          <div className="profile-header">
+        <div className="profile-section">
+            <div className="profile-cover-photo">
+              <img src="src\assets\cover.webp" alt="Cover" className="pofile-cover-img" />
+            </div>
+            <div className="profile-header">
             <img
               src="src\assets\profile pic.png"
               alt="Profile Picture"
-              className="profile-picture"
+              className="pprofile-picture"
             />
             <div className="profile-info">
               <h1 className="profile-name">Zeyad Waleed</h1>
@@ -63,8 +65,7 @@ const PlayerProfile = () => {
                 Cairo.
               </p>
             </div>
-          </div>
-
+        </div>
           {/* Navigation Tabs */}
           <div className="profile-tabs">
             <button className="tab active" data-tab="gallery">
@@ -74,7 +75,7 @@ const PlayerProfile = () => {
               <i className="ri-information-line"></i>
             </button>
           </div>
-
+          
           {/* Profile Content */}
           <div className="profile-content">
             {/* Photos and Videos Section */}
@@ -153,8 +154,7 @@ const PlayerProfile = () => {
               </div>
             </div>
           </div>
-        </section>
-      </main>
+    </div>
     </div>
   );
 };
