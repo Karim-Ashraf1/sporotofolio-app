@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import "./PlayerProfile.css";
 import Navbar from '../Navbar';
+import LeftMenu from "../LeftMenu";
+import RightMenu from "../RightMenu";
 
 const PlayerProfile = () => {
   useEffect(() => {
@@ -38,18 +40,20 @@ const PlayerProfile = () => {
   return (
     <div>
       <Navbar />
+      <LeftMenu />
+      {/* <RightMenu /> */}
       <main>
         <section className="profile-section">
           <div className="profile-header">
             <img
-              src="src\assets\mosamy.jpg"
+              src="src\assets\profile pic.png"
               alt="Profile Picture"
               className="profile-picture"
             />
             <div className="profile-info">
               <h1 className="profile-name">Zeyad Waleed</h1>
               <p className="profile-location">Cairo, Egypt</p>
-              <button className="follow-button">+ Follow</button>
+              <button className="edit-button">Edit Profile</button>
               <div className="profile-stats">
                 <span>1M Followers</span> | <span>30K Ratings</span>
               </div>

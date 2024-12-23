@@ -45,7 +45,9 @@ a {
 
 /* Main Profile Section */
 .profile-section {
-  padding: 40px 20px;
+  width: 1000px;
+  padding: 90px 90px;
+  margin-left: 300px;
   text-align: center;
 }
 
@@ -59,8 +61,8 @@ a {
 }
 
 .profile-picture {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 
@@ -72,7 +74,7 @@ a {
 .profile-name {
   font-size: 28px;
   font-weight: bold;
-  color: #2EB62B;
+  color: white;
 }
 
 .profile-location {
@@ -81,18 +83,18 @@ a {
   color: #aaa;
 }
 
-.follow-button {
+.edit-button {
   background-color: #2EB62B;
   color: white;
   padding: 8px 16px;
-  border-radius: 5px;
-  font-weight: bold;
+  border-radius: 3px;
+  font-weight: 600;
   border: none;
   cursor: pointer;
   transition: background 0.3s;
 }
 
-.follow-button:hover {
+.edit-button:hover {
   background-color: #186f17;
 }
 
@@ -157,7 +159,7 @@ footer {
 .profile-tabs {
   display: flex;
   justify-content: space-around;
-  background: black;
+  background: #0a0a0a;
   padding: 10px 0;
   border-top: 1px solid #333;
   border-bottom: 1px solid #333;
@@ -210,8 +212,6 @@ footer {
   height: 400px;
   border-radius: 10px;
   object-fit:cover;
-  ;
-  
 }
 
 .gallery video {
