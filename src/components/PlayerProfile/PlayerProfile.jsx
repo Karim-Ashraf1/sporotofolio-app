@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./PlayerProfile.css";
+import Navbar from '../Navbar';
 
 const PlayerProfile = () => {
   useEffect(() => {
@@ -36,12 +37,7 @@ const PlayerProfile = () => {
 
   return (
     <div>
-      <header className="header">
-        <a href="#home" className="logo">
-            Profile
-        </a>
-      </header>
-
+      <Navbar />
       <main>
         <section className="profile-section">
           <div className="profile-header">
@@ -51,7 +47,7 @@ const PlayerProfile = () => {
               className="profile-picture"
             />
             <div className="profile-info">
-              <h1 className="profile-name">Mohamed Samy</h1>
+              <h1 className="profile-name">Zeyad Waleed</h1>
               <p className="profile-location">Cairo, Egypt</p>
               <button className="follow-button">+ Follow</button>
               <div className="profile-stats">
@@ -155,8 +151,6 @@ const PlayerProfile = () => {
           </div>
         </section>
       </main>
-
-      <footer>Copyright © 2024 Sportofolio. All rights reserved</footer>
     </div>
   );
 };
