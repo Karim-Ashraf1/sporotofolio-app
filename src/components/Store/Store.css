@@ -12,36 +12,6 @@ a {
   text-decoration: none;
 }
 
-.login {
-  background: #F5F5F5;
-  border: none;
-  color: black;
-  font-weight: 550;
-  font-size: 14px;
-  padding: 8px 16px;
-  border-radius: 10px;
-}
-
-.login:hover {
-  background-color: rgba(212, 211, 211, 0.816);
-}
-
-.SignUp {
-  background-color: #2EB62B;
-  border: 2px solid #2EB62B;
-  color: white;
-  font-weight: 550;
-  font-size: 16px;
-  padding: 6px 12px;
-  border-radius: 10px;
-}
-
-.SignUp:hover {
-  background-color: #186f17;
-  border-color: #186f17;
-  color: rgba(212, 211, 211, 0.816);
-}
-
 .header {
   display: flex;
   padding-top: 24px;
@@ -57,15 +27,8 @@ a {
   padding: 20px 20px;
 }
 
-.logo {
-  padding-left: 24px;
-  color: white;
-  font-weight: 700;
-  font-size: 24px;
-}
-
 body {
-  background-color: black;
+  background-color: #0a0a0a;
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center;
@@ -77,14 +40,6 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-}
-
-footer {
-  color: white;
-  margin-top: auto;
-  text-align: center;
-  padding-bottom: 24px;
-  font-size: 12px;
 }
 
 .main {
