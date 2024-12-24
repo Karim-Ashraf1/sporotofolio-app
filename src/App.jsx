@@ -9,9 +9,11 @@ import PlayerProfile from "./components/PlayerProfile/PlayerProfile";
 import NetworkPage from "./NetworkPage"; 
 import Store from "./components/Store/Store";
 import Policy from "./components/Policies/Policy";
+import Settings from "./components/Settings/Settings";
 
 function App() {
     const [isAuthorized, setIsAuthorized] = useState(false);
+
 
     const handleLogin = () => {
         setIsAuthorized(true);
@@ -34,6 +36,7 @@ function App() {
                 <Route path="/network" element={<NetworkPage />} /> 
                 <Route path="/store" element={<Store />} />
                 <Route path="/policies" element={<Policy />} /> 
+                <Route path="/settings" element={<Settings />} /> 
             </Routes>
         </Router>
     );

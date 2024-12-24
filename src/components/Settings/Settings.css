@@ -1,0 +1,170 @@
+/* General Layout */
+.settings-container {
+    display: flex;
+    height: 100vh;
+    background-color: #0d1117; /* Dark background */
+    color: #c9d1d9; /* Light text */
+    font-family: Arial, sans-serif;
+    padding-left: 250px;
+    padding-top: 80px;
+}
+
+/* Sidebar */
+.settings-sidebar {
+    width: 250px;
+    background-color: #161b22;
+    padding: 20px;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.settings-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.settings-sidebar li {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.settings-sidebar li:hover,
+.settings-sidebar li.active {
+    background-color: #238636;
+    color: white;
+}
+
+/* Main Content */
+.settings-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #0d1117;
+}
+
+.settings-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #c9d1d9;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #30363d;
+    border-radius: 5px;
+    background-color: #161b22;
+    color: #c9d1d9;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #238636;
+    outline: none;
+}
+
+/* Account Section Styles */
+.delete-button {
+    background-color: #ff4d4f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.delete-button:hover {
+    background-color: #d9363e;
+}
+
+
+/* Form Group Inline */
+.form-group.inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+/* Label Styles */
+.form-group.inline label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+/* Toggle Button Styles */
+.toggle {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 19px;
+    height: 19px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.toggle.active {
+    background-color: #28a745;
+}
+
+.toggle.active::before {
+    transform: translateX(25px);
+}
+
+.toggle.inactive {
+    background-color: #dc3545;
+}
+
+
+
+
+.change-button {
+    background-color: #238636;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.change-button:hover {
+    background-color: #1f6f30;
+}
