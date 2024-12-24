@@ -1,7 +1,10 @@
 import React from 'react';
 import './ProfileID.css';
+import { getName } from "./Data/Data";
 
 const ProfileID = () => {
+   const name = getName();
+
     return (
       <div className="sp-player-card">
         <div className="cover-photo">
@@ -13,7 +16,7 @@ const ProfileID = () => {
         <div className="player-content">
           <div className="player-header">
             <div className="player-info">
-              <h2 className="sp-player-name">Zeyad Waleed</h2>
+              <h2 className="sp-player-name">{name}</h2>
               <p className="player-position">Midfielder</p>
               <div className="club-info">
                 <p className="player-club">Real Madrid</p>
