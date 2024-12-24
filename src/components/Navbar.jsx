@@ -2,9 +2,13 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Navbar.css';
 import SearchBar from './SearchBar';
+import { getName } from "./Data/Data";
 
 const Navbar = () => {
   const navigate = useNavigate();
+
+  const name = getName();
+  
   return (
     <div className="navbarr">
       <div className="logo-search-container">
@@ -21,7 +25,7 @@ const Navbar = () => {
         <img src="./src/assets/profile pic.png" alt="Profile" />
         <div className="profile-text">
           <p className="greeting">Hello,</p>
-          <p className="name">Zeyad Waleed</p>
+          <p className="name">{name}</p>
         </div>
       </div>
     </div>

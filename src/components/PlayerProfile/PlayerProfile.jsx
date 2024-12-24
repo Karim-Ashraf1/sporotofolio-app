@@ -3,12 +3,18 @@ import "./PlayerProfile.css";
 import Navbar from '../Navbar';
 import LeftMenu from "../LeftMenu";
 import { FaCog, FaCheckCircle } from 'react-icons/fa';
+import { getName } from "../Data/Data";
 
 const PlayerProfile = () => {
+  
+  const name = getName();
+
   useEffect(() => {
     // Add event listeners for tab switching
     const tabs = document.querySelectorAll(".profile-tabs .tab");
     const sections = document.querySelectorAll(".profile-content > div");
+
+
 
     tabs.forEach((tab) => {
       tab.addEventListener("click", () => {
@@ -55,7 +61,7 @@ const PlayerProfile = () => {
             <div className="d-flex justify-content-between align-center">
               <div className="profile-info">
               <h1 className="profile-name">
-                Zeyad Waleed
+                {name}
                 <FaCheckCircle className="verification-icon" />
               </h1>
                 <p className="profile-bio">
