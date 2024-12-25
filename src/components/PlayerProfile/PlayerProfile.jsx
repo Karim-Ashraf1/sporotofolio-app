@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
 import "./PlayerProfile.css";
 import Navbar from '../Navbar';
 import LeftMenu from "../LeftMenu";
@@ -8,6 +9,8 @@ import { getBio } from "../Data/Data";
 
 const PlayerProfile = () => {
   
+   const navigate = useNavigate();
+   
   const name = getName();
   const bio = getBio();
 
@@ -75,7 +78,7 @@ const PlayerProfile = () => {
               </div>
               <div className="d-flex gap-3">
                 <button className="edit-button">Edit Profile</button>
-                <button className="edit-button icon-button">
+                <button className="edit-button icon-button" onClick={() => navigate('/settings')}>
                   <FaCog />
                 </button>
               </div>

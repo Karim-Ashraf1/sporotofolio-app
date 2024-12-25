@@ -32,7 +32,7 @@ const Store = () => {
     const [searchTerm, setSearchTerm] = useState("");
     const [cartOpen, setCartOpen] = useState(false);
     const [favorites, setFavorites] = useState([]);
-
+    
     const products = [
         {
             id: 1,
