@@ -6,7 +6,7 @@ import { getName, setName } from "../Data/Data";
 import {getBio, setBio} from "../Data/Data";
 import {getEmail, setEmail} from "../Data/Data";
 import {getPronouns, setPronouns} from "../Data/Data";
-import {getURL, setURL} from "../Data/Data";
+import {getUrl, setUrl} from "../Data/Data";
 
 const Settings = () => {
     const [activeSection, setActiveSection] = useState("PublicProfile");
@@ -15,7 +15,7 @@ const Settings = () => {
         publicEmail: getEmail(),
         bio: getBio(),
         pronouns: getPronouns(),
-        url: getURL(),
+        url: getUrl(),
         darkMode: false,
         emailNotifications: true,
         smsNotifications: false,
@@ -48,7 +48,7 @@ const Settings = () => {
         setBio(settings.bio); 
         setEmail(settings.publicEmail);
         setPronouns(settings.pronouns);
-        setURL(settings.url);
+        setUrl(settings.url);
         alert(`Name changed to: ${settings.name}`);
     };
 
