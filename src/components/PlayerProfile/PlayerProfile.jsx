@@ -4,10 +4,12 @@ import Navbar from '../Navbar';
 import LeftMenu from "../LeftMenu";
 import { FaCog, FaCheckCircle } from 'react-icons/fa';
 import { getName } from "../Data/Data";
+import { getBio } from "../Data/Data";
 
 const PlayerProfile = () => {
   
   const name = getName();
+  const bio = getBio();
 
   useEffect(() => {
     // Add event listeners for tab switching
@@ -65,9 +67,7 @@ const PlayerProfile = () => {
                 <FaCheckCircle className="verification-icon" />
               </h1>
                 <p className="profile-bio">
-                  Talented goalkeeper currently playing for Al Ahly, one of
-                  Egypt's most prestigious football clubs. Born and raised in
-                  Cairo.
+                  {bio}
                 </p>
                 <div className="profile-stats">
                   <span>1M Followers</span> | <span>30K Ratings</span>

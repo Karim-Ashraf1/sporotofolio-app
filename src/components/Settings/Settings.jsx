@@ -3,15 +3,19 @@ import "./Settings.css";
 import LeftMenu from "../LeftMenu";
 import Navbar from "../Navbar";
 import { getName, setName } from "../Data/Data";
+import {getBio, setBio} from "../Data/Data";
+import {getEmail, setEmail} from "../Data/Data";
+import {getPronouns, setPronouns} from "../Data/Data";
+import {getURL, setURL} from "../Data/Data";
 
 const Settings = () => {
     const [activeSection, setActiveSection] = useState("PublicProfile");
     const [settings, setSettings] = useState({
         name: getName(),
-        publicEmail: "ZOZ@sportofolio.com",
-        bio: "Talented goalkeeper currently playing for Al Ahly, one of Egypt's most prestigious football clubs. Born and raised in Cairo.",
-        pronouns: "he/him",
-        url: "http://sportofolio/profile/{id}",
+        publicEmail: getEmail(),
+        bio: getBio(),
+        pronouns: getPronouns(),
+        url: getURL(),
         darkMode: false,
         emailNotifications: true,
         smsNotifications: false,
@@ -38,9 +42,13 @@ const Settings = () => {
         }));
     };
 
-    const handleNameChange = (e) => {
+    const handleChange = (e) => {
         e.preventDefault();
-        setName(settings.name); 
+        setName(settings.name);
+        setBio(settings.bio); 
+        setEmail(settings.publicEmail);
+        setPronouns(settings.pronouns);
+        setURL(settings.url);
         alert(`Name changed to: ${settings.name}`);
     };
 
@@ -86,7 +94,7 @@ const Settings = () => {
                 </div>
                 <div className="settings-content">
                     {activeSection === "PublicProfile" && (
-                        <form onSubmit={handleNameChange}>
+                        <form onSubmit={handleChange}>
                             <h2>Public profile</h2>
                             <div className="form-group">
                                 <label>Name</label>
