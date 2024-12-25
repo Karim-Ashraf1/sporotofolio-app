@@ -1,17 +1,21 @@
 import React, { useState } from "react";
 import "./Store.css";
-import googleImage from "../../assets/google.png";
 import LeftMenu from '../LeftMenu';
 import Navbar from "../Navbar"; 
-import "bootstrap/dist/css/bootstrap.min.css";
 
+import NasserKit from "../../assets/nassr_kit.png";
+import BarcelonaKit from "../../assets/barca_kit.png";
+import ZamalekKit from "../../assets/zamalek_kit.png";
+import Jabulani from "../../assets/jabulani.jpg";
+import LM10Boots from "../../assets/messi_wc_boot.jpg";
+import shrimp from "../../assets/shrimp.jpg";
 
 const Store = () => {
     const [cartItems, setCartItems] = useState([
         {
             id: 1,
             name: "LM10 Official Boots WC 2022",
-            image: googleImage,
+            image: LM10Boots,
             price: 34.95,
             stock: 12,
             quantity: 2,
@@ -19,7 +23,7 @@ const Store = () => {
         {
             id: 2,
             name: "Jabulani Official Football WC 2010",
-            image: googleImage,
+            image: Jabulani,
             price: 34.95,
             stock: 12,
             quantity: 2,
@@ -33,39 +37,59 @@ const Store = () => {
         {
             id: 1,
             title: "LM10 official Boots WC 2022",
-            image: googleImage,
+            image: LM10Boots,
             price: "$34.95",
             rating: "★★★★☆",
             reviews: 1222,
-            arrival: "Saturday, Mei 18",
+            arrival: "Arrives: Saturday, Mei 18",
         },
         {
             id: 1,
             title: "جمبري بورسعي جامبو",
-            image: googleImage,
+            image:  shrimp,
             price: "$100",
             rating: "★★★★★",
             reviews: 9999,
-            arrival: "Saturday, Mei 18",
+            arrival: "Arrives: Saturday, Mei 18",
         },
         {
             id: 1,
-            title: "LM10 official Boots WC 2022",
-            image: googleImage,
+            title: "jabulani official footbal WC 2010",
+            image: Jabulani,
             price: "$34.95",
             rating: "★★★★☆",
             reviews: 1222,
-            arrival: "Saturday, Mei 18",
+            arrival: "Arrives: Saturday, Mei 18",
         },
         {
             id: 1,
-            title: "LM10 official Boots WC 2022",
-            image: googleImage,
+            title: "ELNASSR official kit 2024",
+            image: NasserKit,
             price: "$34.95",
             rating: "★★★★☆",
             reviews: 1222,
-            arrival: "Saturday, Mei 18",
+            arrival: "Arrives: Saturday, Mei 18",
         },
+        {
+            id: 1,
+            title: "Barcelona official kit 2024",
+            image: BarcelonaKit,
+            price: "$34.95",
+            rating: "★★★★☆",
+            reviews: 1222,
+            arrival: "Arrives: Saturday, Mei 18",
+        },
+        {
+            id: 1,
+            title: "Zamalek official kit 2024",
+            image: ZamalekKit,
+            price: "$34.95",
+            rating: "★★★★☆",
+            reviews: 1222,
+            arrival: "Arrives: Saturday, Mei 18",
+        },
+        
+        
     ];
 
     const handleSearch = (event) => {
