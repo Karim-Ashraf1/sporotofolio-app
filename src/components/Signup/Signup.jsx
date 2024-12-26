@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Signup.css";
+import { emails, addEmail } from "../Data/Data";
 
 const Signup = () => {
     const [name, setName] = useState("");
@@ -11,11 +12,23 @@ const Signup = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (password === confirmPassword && name && email) {
+
+        const domain = email.split("@")[1];
+
+        if (!emails.includes(email) && (domain === "coach.com" || domain === "player.com") &&  password === confirmPassword && name && email) {
+            addEmail(email);
             alert("Account created successfully!");
-            navigate("/login"); // Redirect to login page after successful signup
-        } else {
+            navigate("/");
+        } else if (emails.includes(email)) {
+            alert("This email is already registered. Please login.");
+        } else if (domain !== "coach.com" && domain !== "player.com") {
+            alert("Invalid email domain. Please use a @coach.com or @player.com email.");
+        } else if(password !== confirmPassword) {
+            alert("Passwords do not match. Please try again.");
+        } else if (!name || !email) {
             alert("Please fill out all fields correctly.");
+        } else {
+            alert("Please enter valid credentials.");
         }
     };
 

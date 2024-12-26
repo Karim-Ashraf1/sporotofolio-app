@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Login.css";
+import { emails } from "../Data/Data";
 
 const Login = ({ onLogin }) => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const navigate = useNavigate();
+
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -17,7 +19,11 @@ const Login = ({ onLogin }) => {
         }
     
         const domain = email.split("@")[1];
-    
+        
+        if(! emails.includes(email)){
+            alert("Email not found. Please sign up first.");
+            return;
+        }
         if (domain === "coach.com" || domain === "player.com") {
             localStorage.setItem("userDomain", domain);
             onLogin();
