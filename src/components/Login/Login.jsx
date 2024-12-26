@@ -10,12 +10,23 @@ const Login = ({ onLogin }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (email && password.length >= 6) {
+    
+        if (!email || password.length < 6) {
+            alert("Please enter valid credentials.");
+            return;
+        }
+    
+        const domain = email.split("@")[1];
+    
+        if (domain === "coach.com" || domain === "player.com") {
+            localStorage.setItem("userDomain", domain);
             onLogin();
+            navigate(domain === "coach.com" ? "/CoachProfile" : "/PlayerProfile");
         } else {
-            alert("Please enter valid credentials");
+            alert("Invalid email domain. Please use a @coach.com or @player.com email.");
         }
     };
+    
 
     return (
         <div className="container d-flex justify-content-center align-items-center min-vh-100">
