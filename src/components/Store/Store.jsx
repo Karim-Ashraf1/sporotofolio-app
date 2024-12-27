@@ -4,11 +4,13 @@ import LeftMenu from '../LeftMenu';
 import Navbar from "../Navbar"; 
 
 import NasserKit from "../../assets/nassr_kit.png";
-import BarcelonaKit from "../../assets/barca_kit.png";
-import ZamalekKit from "../../assets/zamalek_kit.png";
+import BarcelonaKit from "../../assets/real-madrid-white.jpg";
+import ZamalekKit from "../../assets/4_b7699d72-a48a-4d14-a041-bb98feac8a5e.webp";
 import Jabulani from "../../assets/real-madrid-third-shirt.jpg";
-import LM10Boots from "../../assets/messi_wc_boot.jpg";
-import shrimp from "../../assets/shrimp.jpg";
+import LM10Boots from "../../assets/juventus-home-shirt-24.jpg";
+import shrimp from "../../assets/SEEK4218_0.jpg";
+import ronaldoshoes1 from "../../assets/ronaldo-shoes1.jpeg";
+import ronaldoshoes2 from "../../assets/ronaldo-shoes2.jpg";
 
 const Store = () => {
     const [cartItems, setCartItems] = useState([
@@ -36,7 +38,7 @@ const Store = () => {
     const products = [
         {
             id: 1,
-            title: "LM10 official Boots WC 2022",
+            title: "Juventus Home Shirt",
             image: LM10Boots,
             price: "$34.95",
             rating: "★★★★☆",
@@ -45,7 +47,7 @@ const Store = () => {
         },
         {
             id: 1,
-            title: "جمبري بورسعي جامبو",
+            title: "frankfort  Home Shirt",
             image:  shrimp,
             price: "$100",
             rating: "★★★★★",
@@ -54,7 +56,7 @@ const Store = () => {
         },
         {
             id: 1,
-            title: "jabulani official footbal WC",
+            title: "Real Madrid Grey Shirt",
             image: Jabulani,
             price: "$34.95",
             rating: "★★★★☆",
@@ -72,7 +74,7 @@ const Store = () => {
         },
         {
             id: 1,
-            title: "Barcelona official kit 2024",
+            title: "Real Madrid Home Shirt",
             image: BarcelonaKit,
             price: "$34.95",
             rating: "★★★★☆",
@@ -81,8 +83,26 @@ const Store = () => {
         },
         {
             id: 1,
-            title: "Zamalek official kit 2024",
+            title: "Portogal Home Shirt",
             image: ZamalekKit,
+            price: "$34.95",
+            rating: "★★★★☆",
+            reviews: 1222,
+            arrival: "Arrives: Saturday, May 18",
+        },
+        {
+            id: 1,
+            title: "Nike Shoes",
+            image: ronaldoshoes1 ,
+            price: "$34.95",
+            rating: "★★★★☆",
+            reviews: 1222,
+            arrival: "Arrives: Saturday, May 18",
+        },
+        {
+            id: 1,
+            title: "Nike Shoes Portogal edition",
+            image: ronaldoshoes2,
             price: "$34.95",
             rating: "★★★★☆",
             reviews: 1222,
@@ -159,8 +179,8 @@ const Store = () => {
             {/* Product Cards */}
             <main className="main">
                 {filteredProducts.map((product) => (
-                    <div className="product-card rounded-4" key={product.id}>
-                        <div className="product-image">
+                    <div className="product-card rounded-3" key={product.id}>
+                        <div className="product-image bg-white rounded-3">
                             <img src={product.image} alt={product.title} />
                             <button
                                 className={`favorite-btn ${
