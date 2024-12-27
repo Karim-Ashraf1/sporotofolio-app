@@ -61,7 +61,7 @@ const Create = () => {
                         Post
                     </button>
                 </div>
-                <div className="upload-info d-flex ">
+                <div className="upload-info d-flex gap-2">
                     <div className="d-flex flex-column">
                     <p className="Upload-title">
                         <FaClock className="info-icon" />
