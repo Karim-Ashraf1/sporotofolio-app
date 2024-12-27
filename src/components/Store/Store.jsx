@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Store.css";
 import LeftMenu from '../LeftMenu';
 import Navbar from "../Navbar"; 
+import Banner from "../Banner/Banner";
 
 import NasserKit from "../../assets/nassr_kit.png";
 import BarcelonaKit from "../../assets/real-madrid-white.jpg";
@@ -159,7 +160,9 @@ const Store = () => {
         <div>
             <Navbar />
             <LeftMenu />
-         <div className="mx-5">
+            
+         <div className="mainstore">
+             <Banner />
             {/* Search Bar */}
             <div className="search-bar-container">
                 <form className="search-form" onSubmit={(e) => e.preventDefault()}>
@@ -177,7 +180,7 @@ const Store = () => {
             </div>
 
             {/* Product Cards */}
-            <main className="main">
+            <main className="main mb-5">
                 {filteredProducts.map((product) => (
                     <div className="product-card rounded-3" key={product.id}>
                         <div className="product-image bg-white rounded-3">
