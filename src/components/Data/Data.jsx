@@ -66,6 +66,17 @@ export const setUrl = (newUrl) => {
   url = newUrl;
 };
 
+// valid emails that can login
+
+export var emails = ["karim@coach.com", "karim@player.com", "zeyad@coach.com", "zeyad@player.com"];
+
+
+export const addEmail = (newEmail) => {
+    if (!emails.includes(newEmail)) {
+        emails.push(newEmail);
+    }
+    
+};
 
 
 const DataComponent = () => {
