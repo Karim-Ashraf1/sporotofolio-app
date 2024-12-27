@@ -13,7 +13,7 @@ const LeftMenu = () => {
 
   const menuItems = [
     { path: '/home', icon: <FaCompass className="menu-icon" />, label: 'Explore' },
-    { path: '/upload', icon: <FaPlus className="menu-icon" />, label: 'Upload' },
+    { path: '/create', icon: <FaPlus className="menu-icon" />, label: 'Upload' },
     { path: '/network', icon: <FaUser className="menu-icon" />, label: 'Network' },
     { path: '/store', icon: <FaShoppingCart className="menu-icon" />, label: 'Store' },
     { path: '/settings', icon: <FaCog className="menu-icon" />, label: 'Settings' },

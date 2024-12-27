@@ -9,6 +9,7 @@ import CoachProfile from "./components/CoachProfile/CoachProfile";
 import PlayerProfile from "./components/PlayerProfile/PlayerProfile";
 import NetworkPage from "./NetworkPage";
 import Store from "./components/Store/Store";
+import Create from "./components/Create/Create";
 import Policy from "./components/Policies/Policy";
 import Settings from "./components/Settings/Settings";
 
@@ -158,6 +159,20 @@ function AnimatedRoutes({ isAuthorized, handleLogin }) {
                             transition={pageTransition}
                         >
                             <Settings />
+                        </motion.div>
+                    }
+                />
+                <Route
+                    path="/Create"
+                    element={
+                        <motion.div
+                            initial="initial"
+                            animate="animate"
+                            exit="exit"
+                            variants={pageVariants}
+                            transition={pageTransition}
+                        >
+                            <Create />
                         </motion.div>
                     }
                 />
