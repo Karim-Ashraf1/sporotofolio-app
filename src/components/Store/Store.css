@@ -54,10 +54,11 @@ body {
   flex: 1 1 calc(25% - 20px);
   max-width: 300px;
   min-width: 220px;
+  background: #181818;
 }
 
 .product-card:hover {
-  transform: translateY(-10px);
+  transform: translatey(-10px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease;
 }
@@ -67,6 +68,7 @@ body {
   height: 200px;
   position: relative;
   overflow: hidden;
+  padding-top:20px;
 }
 
 .product-image img {
@@ -79,7 +81,7 @@ body {
   position: absolute;
   top: 10px;
   right: 10px;
-  background: white;
+  background: #353535;
   border: none;
   border-radius: 50%;
   width: 32px;
@@ -92,7 +94,7 @@ body {
 }
 
 .favorite-btn span {
-  color: #ccc;
+  color: #888;
 }
 
 .favorite-btn.active span {

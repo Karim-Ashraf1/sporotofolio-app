@@ -6,7 +6,7 @@ import Navbar from "../Navbar";
 import NasserKit from "../../assets/nassr_kit.png";
 import BarcelonaKit from "../../assets/barca_kit.png";
 import ZamalekKit from "../../assets/zamalek_kit.png";
-import Jabulani from "../../assets/jabulani.jpg";
+import Jabulani from "../../assets/real-madrid-third-shirt.jpg";
 import LM10Boots from "../../assets/messi_wc_boot.jpg";
 import shrimp from "../../assets/shrimp.jpg";
 
@@ -41,7 +41,7 @@ const Store = () => {
             price: "$34.95",
             rating: "★★★★☆",
             reviews: 1222,
-            arrival: "Arrives: Saturday, Mei 18",
+            arrival: "Arrives: Saturday, May 18",
         },
         {
             id: 1,
@@ -50,16 +50,16 @@ const Store = () => {
             price: "$100",
             rating: "★★★★★",
             reviews: 9999,
-            arrival: "Arrives: Saturday, Mei 18",
+            arrival: "Arrives: Saturday, May 18",
         },
         {
             id: 1,
-            title: "jabulani official footbal WC 2010",
+            title: "jabulani official footbal WC",
             image: Jabulani,
             price: "$34.95",
             rating: "★★★★☆",
             reviews: 1222,
-            arrival: "Arrives: Saturday, Mei 18",
+            arrival: "Arrives: Saturday, May 18",
         },
         {
             id: 1,
@@ -68,7 +68,7 @@ const Store = () => {
             price: "$34.95",
             rating: "★★★★☆",
             reviews: 1222,
-            arrival: "Arrives: Saturday, Mei 18",
+            arrival: "Arrives: Saturday, May 18",
         },
         {
             id: 1,
@@ -77,7 +77,7 @@ const Store = () => {
             price: "$34.95",
             rating: "★★★★☆",
             reviews: 1222,
-            arrival: "Arrives: Saturday, Mei 18",
+            arrival: "Arrives: Saturday, May 18",
         },
         {
             id: 1,
@@ -86,7 +86,7 @@ const Store = () => {
             price: "$34.95",
             rating: "★★★★☆",
             reviews: 1222,
-            arrival: "Arrives: Saturday, Mei 18",
+            arrival: "Arrives: Saturday, May 18",
         },
         
         
