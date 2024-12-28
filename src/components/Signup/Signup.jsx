@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import emailjs from "emailjs-com";
 import "./Signup.css";
 import { emails, addEmail } from "../Data/Data";
 
@@ -10,19 +11,47 @@ const Signup = () => {
     const [confirmPassword, setConfirmPassword] = useState("");
     const navigate = useNavigate();
 
+    const sendEmail = (email) => {
+        const templateParams = {
+            user_email: email,
+            user_name: name,
+            sender_email: "ashashkimo15@gmail.com",
+            sender_name: "Sportofolio",
+            email_subject: "Welcome to Sportofolio – Your Journey Starts Here!",
+            email_content: "Hi ${name},\n\nCongratulations on joining the Sportofolio community! 🎉\n\nWe’re thrilled to have you on board. Sportofolio is designed to help athletes like you showcase your talent, connect with opportunities, and achieve your goals.\n\nHere’s what you can do next:\n\n- Complete Your Profile: Add details about your achievements, skills, and aspirations to stand out.\n- Explore Opportunities: Discover teams, scouts, and coaches looking for talent like yours.\n- Connect with Others: Build your network with fellow athletes and professionals in the sports industry.\n\nIf you have any questions or need help getting started, our support team is here for you. Simply reply to this email or visit our Help Center.\n\nLet’s make your sports journey unforgettable!\n\nWelcome to the team,\nThe Sportofolio Team",
+    
+        };
+
+        emailjs
+            .send(
+                "service_vu3tqq9",
+                "template_dzqsq7r",
+                templateParams,
+                "5KahXPG0N62xrkDmE"
+            )
+            .then(
+                (response) => {
+                    addEmail(email);
+                    alert("Account created successfully! Please check your email :)");
+                    console.log("Email sent successfully!", response.status, response.text);
+                    navigate("/");
+                },
+                (error) => {
+                    alert("Failed to create Account, Please enter valid email.");
+                    console.error("Failed to send email.", error);
+                }
+            );
+    };
+
     const handleSubmit = (e) => {
         e.preventDefault();
 
         const domain = email.split("@")[1];
 
-        if (!emails.includes(email) && (domain === "coach.com" || domain === "player.com") &&  password === confirmPassword && name && email) {
-            addEmail(email);
-            alert("Account created successfully!");
-            navigate("/");
+        if (!emails.includes(email) &&  password === confirmPassword && name && email) {
+            sendEmail(email);
         } else if (emails.includes(email)) {
             alert("This email is already registered. Please login.");
-        } else if (domain !== "coach.com" && domain !== "player.com") {
-            alert("Invalid email domain. Please use a @coach.com or @player.com email.");
         } else if(password !== confirmPassword) {
             alert("Passwords do not match. Please try again.");
         } else if (!name || !email) {
