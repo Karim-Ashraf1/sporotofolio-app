@@ -12,6 +12,7 @@ import Store from "./components/Store/Store";
 import Create from "./components/Create/Create";
 import Policy from "./components/Policies/Policy";
 import Settings from "./components/Settings/Settings";
+import AISearch from "./components/AISearch/AISearch";
 
 function AnimatedRoutes({ isAuthorized, handleLogin }) {
     const location = useLocation();
@@ -173,6 +174,20 @@ function AnimatedRoutes({ isAuthorized, handleLogin }) {
                             transition={pageTransition}
                         >
                             <Create />
+                        </motion.div>
+                    }
+                />
+                <Route
+                    path="/AISearch"
+                    element={
+                        <motion.div
+                            initial="initial"
+                            animate="animate"
+                            exit="exit"
+                            variants={pageVariants}
+                            transition={pageTransition}
+                        >
+                            <AISearch/>
                         </motion.div>
                     }
                 />

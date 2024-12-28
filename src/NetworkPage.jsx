@@ -110,9 +110,7 @@ const NetworkPage = () => {
 
   return (
     <div className="network-page">
-      <div className="search-container">
       <Navbar />
-      </div>
       <LeftMenu />
       <div className="cards-container">
         {players.map((player, index) => (
