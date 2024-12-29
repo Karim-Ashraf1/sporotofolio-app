@@ -15,19 +15,19 @@ const Signup = () => {
         const templateParams = {
             user_email: email,
             user_name: name,
-            sender_email: "ashashkimo15@gmail.com",
+            sender_email: "sportofolioapp@gmail.com",
             sender_name: "Sportofolio",
             email_subject: "Welcome to Sportofolio – Your Journey Starts Here!",
-            email_content: "Hi ${name},\n\nCongratulations on joining the Sportofolio community! 🎉\n\nWe’re thrilled to have you on board. Sportofolio is designed to help athletes like you showcase your talent, connect with opportunities, and achieve your goals.\n\nHere’s what you can do next:\n\n- Complete Your Profile: Add details about your achievements, skills, and aspirations to stand out.\n- Explore Opportunities: Discover teams, scouts, and coaches looking for talent like yours.\n- Connect with Others: Build your network with fellow athletes and professionals in the sports industry.\n\nIf you have any questions or need help getting started, our support team is here for you. Simply reply to this email or visit our Help Center.\n\nLet’s make your sports journey unforgettable!\n\nWelcome to the team,\nThe Sportofolio Team",
+            email_content: `Hi ${name},\n\nCongratulations on joining the Sportofolio community! 🎉\n\nWe’re thrilled to have you on board. Sportofolio is designed to help athletes like you showcase your talent, connect with opportunities, and achieve your goals.\n\nHere’s what you can do next:\n\n- Complete Your Profile: Add details about your achievements, skills, and aspirations to stand out.\n- Explore Opportunities: Discover teams, scouts, and coaches looking for talent like yours.\n- Connect with Others: Build your network with fellow athletes and professionals in the sports industry.\n\nIf you have any questions or need help getting started, our support team is here for you. Simply reply to this email or visit our Help Center.\n\nLet’s make your sports journey unforgettable!\n\nWelcome to the team,\nThe Sportofolio Team`,
     
         };
 
         emailjs
             .send(
-                "service_vu3tqq9",
-                "template_dzqsq7r",
+                "service_s7v8jy5",
+                "template_1bxwh0p",
                 templateParams,
-                "5KahXPG0N62xrkDmE"
+                "9XO3HQagnoUS_bDL7"
             )
             .then(
                 (response) => {
