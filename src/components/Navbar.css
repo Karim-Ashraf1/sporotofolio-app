@@ -56,13 +56,13 @@
 .profile {
     display: flex;
     align-items: center;
-    color: #858585;
+    color: white;
     padding-right: 60px;
 }
 
 .profile img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -74,7 +74,7 @@
 }
 
 .greeting {
-    color: #858585;
+    color: white;
 }
 
 .profile-text p {
@@ -95,3 +95,96 @@
 body {
     margin-top: 60px;
 }
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .notification-container {
+    width: 50px;
+    height: 50px;
+    background-color: #333334;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .notification {
+    position: relative;
+  }
+  
+  .bell-icon {
+    color: #d8d7d7;
+    font-size: 24px;
+  }
+  
+  .notification-dot {
+    position: absolute;
+    top: -0.05px;
+    right: -0.05px;
+    width: 8px;
+    height: 8px;
+    background-color: #ff0000;
+    border-radius: 50%;
+  }
+  .notifications-dropdown {
+    position: absolute;
+    top: 70px;
+    right: 2;
+    width: 300px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 16px;
+    z-index: 1000;
+  }
+  
+  .notifications-dropdown h3 {
+    color: white;
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+  
+  .notifications-list {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .notification-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #333;
+    transition: background-color 0.3s;
+    
+  }
+  
+  .notification-item:hover {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .notification-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .notification-content {
+    flex: 1;
+  }
+  
+  .notification-content p {
+    color: white;
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .notification-content span {
+    color: #858585;
+    font-size: 12px;
+  }

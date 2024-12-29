@@ -1,18 +1,16 @@
-/* General Layout */
 .settings-container {
     display: flex;
     height: 100vh;
-    background-color: #0d1117; /* Dark background */
-    color: #c9d1d9; /* Light text */
-    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: #c9d1d9;
+    font-family: 'Poppins', sans-serif;
     padding-left: 250px;
     padding-top: 80px;
 }
 
-/* Sidebar */
 .settings-sidebar {
     width: 250px;
-    background-color: #161b22;
+    background-color: #0a0a0a;
     padding: 20px;
     box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
 }
@@ -24,25 +22,29 @@
 }
 
 .settings-sidebar li {
+    color: #858585;
     padding: 10px 15px;
     cursor: pointer;
     border-radius: 5px;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
-.settings-sidebar li:hover,
-.settings-sidebar li.active {
-    background-color: #238636;
+.settings-sidebar li:hover{
+    background-color: #2d2d2d;
     color: white;
 }
 
-/* Main Content */
+.settings-sidebar li.active{
+    color: #04be3e;
+}
+
 .settings-content {
     flex: 1;
     padding: 20px;
     overflow-y: auto;
-    background-color: #0d1117;
+    background-color: #0a0a0a;
 }
 
 .settings-content h2 {
@@ -50,7 +52,6 @@
     margin-bottom: 20px;
 }
 
-/* Form Styles */
 .form-group {
     margin-bottom: 20px;
 }
@@ -66,11 +67,11 @@
 .form-group textarea,
 .form-group select {
     width: 100%;
-    padding: 10px;
+    padding: 14px;
     font-size: 16px;
-    border: 1px solid #30363d;
+    border: none;
     border-radius: 5px;
-    background-color: #161b22;
+    background-color: #2d2d2d;
     color: #c9d1d9;
 }
 
@@ -85,7 +86,6 @@
     outline: none;
 }
 
-/* Account Section Styles */
 .delete-button {
     background-color: #ff4d4f;
     color: white;
@@ -100,8 +100,6 @@
     background-color: #d9363e;
 }
 
-
-/* Form Group Inline */
 .form-group.inline {
     display: flex;
     align-items: center;
@@ -109,14 +107,12 @@
     margin-bottom: 15px;
 }
 
-/* Label Styles */
 .form-group.inline label {
     font-size: 16px;
     font-weight: 500;
     margin-right: 10px;
 }
 
-/* Toggle Button Styles */
 .toggle {
     position: relative;
     width: 50px;

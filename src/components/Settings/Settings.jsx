@@ -21,7 +21,6 @@ const Settings = () => {
         smsNotifications: false,
     });
 
-    // Load settings from localStorage on component mount
     useEffect(() => {
         const savedSettings = JSON.parse(localStorage.getItem("userSettings"));
         if (savedSettings) {
@@ -29,7 +28,6 @@ const Settings = () => {
         }
     }, []);
 
-    // Save settings to localStorage when they change
     useEffect(() => {
         localStorage.setItem("userSettings", JSON.stringify(settings));
     }, [settings]);
@@ -131,7 +129,6 @@ const Settings = () => {
                                 >
                                     <option value="he/him">he/him</option>
                                     <option value="she/her">she/her</option>
-                                    <option value="they/them">they/them</option>
                                 </select>
                             </div>
                             <div className="form-group">
@@ -144,7 +141,7 @@ const Settings = () => {
                                 />
                             </div>
                             <button type="submit" className="change-button">
-                                Change Name
+                                Save Changes
                             </button>
                         </form>
                     )}
