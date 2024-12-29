@@ -42,7 +42,8 @@ function AISearch() {
       <Navbar />
       <LeftMenu />
       <div className="search-container">
-        <h1 className="search-title">Welcome to sportofolio AI..</h1>
+        <p className="search-title">Welcome to sportofolio AI..</p>
+        <p className="search-intro-text">Your personal sports companion revolutionizing the way you train and excel! Sportofolio AI offers tailored diet plans, instant answers to your sports-related queries, and expert insights—all powered by advanced technology. This intelligent assistant bridges the gap between sports and innovation, providing personalized, data-driven solutions to enhance your performance and streamline your journey. Whether you're a player, coach, or enthusiast, Sportofolio AI transforms how you approach fitness, nutrition, and training in the ever-evolving sports industry.</p>
         <form onSubmit={handleSearch} className="ai-search-form">
           <input
             type="text"
