@@ -32,6 +32,19 @@ const Policy = () => {
                             <h2>3. Your Rights</h2>
                             <p>You have the right to access, update, or delete your personal data. Contact us for more information.</p>
                         </section>
+                        <section className="policy-section">
+                            <h2>4. Data Security</h2>
+                            <p>We implement industry-standard security measures to protect your data from unauthorized access, alteration, or disclosure.</p>
+                        </section>
+                        <section className="policy-section">
+                            <h2>5. Updates to This Policy</h2>
+                            <p>We may update this Privacy Policy periodically. Please review it regularly to stay informed about any changes.</p>
+                        </section>
+                        <section className="policy-section">
+                            <h2>6. Contact Us</h2>
+                            <p>If you have any questions about this Privacy Policy, feel free to contact us at privacy@yourwebsite.com.</p>
+                        </section>
+
                     </div>
                 </div>
             </div>
