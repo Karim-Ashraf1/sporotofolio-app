@@ -5,103 +5,118 @@ import './NetworkPage.css';
 import LeftMenu from './components/LeftMenu';
 import RightMenu from './components/RightMenu';
 import ProfileID from './components/ProfileID';
+import bellingham from './assets/bellingham.jpeg';
+import vini from './assets/vini.jpeg';
+import mbappe from './assets/mbappe.jpeg';
+import marmoush from './assets/marmoush.jpeg';
+import lamine from './assets/lamine.jpeg';
+import ronaldo from './assets/account.png';
+import neymar from './assets/neymar.jpeg';
+import messi from './assets/messi.jpeg';
+import mosalah from './assets/mosalah.jpeg';
+import lebronJames from './assets/lebron.jpg';
+import bonmati from './assets/bonmati.jpeg';
+import hanaGoda from './assets/hanagoda.jpeg';
+
+
+import realmadrid from './assets/Real_Madrid_CF.svg.webp';
 
 const NetworkPage = () => {
   const players = [
     {
-      photo: './src/assets/player1.jpg',
-      name: 'Lionel Messi',
-      position: 'Forward',
-      club: 'Inter Miami',
-      clubLogo: './src/assets/inter-miami-logo.png',
-      qrCode: './src/assets/qr-code1.png',
-    },
-    {
-      photo: './src/assets/player2.jpg',
+      photo: ronaldo,
       name: 'Cristiano Ronaldo',
       position: 'Forward',
       club: 'Al-Nassr',
-      clubLogo: './src/assets/al-nassr-logo.png',
+      clubLogo: realmadrid,
       qrCode: './src/assets/qr-code2.png',
     },
     {
-      photo: './src/assets/player3.jpg',
-      name: 'Neymar Jr.',
+      photo: bellingham,
+      name: 'Jude Bellingham',
+      position: 'Midfielder',
+      club: 'Real Madrid',
+      clubLogo: realmadrid,
+      qrCode: './src/assets/qr-code1.png',
+    },
+    {
+      photo: vini,
+      name: 'Vinicius Junior (Vini Jr.)',
       position: 'Forward',
-      club: 'Al-Hilal',
-      clubLogo: './src/assets/al-hilal-logo.png',
+      club: 'Real Madrid',
+      clubLogo: realmadrid,
+      qrCode: './src/assets/qr-code2.png',
+    },
+    {
+      photo: marmoush,
+      name: 'Omar Marmoush',
+      position: 'Forward',
+      club: 'Frankfurt',
+      clubLogo: realmadrid,
       qrCode: './src/assets/qr-code3.png',
     },
     {
-      photo: './src/assets/player1.jpg',
-      name: 'Lionel Messi',
+      photo: lamine,
+      name: 'Lamine Yamal',
       position: 'Forward',
-      club: 'Inter Miami',
-      clubLogo: './src/assets/inter-miami-logo.png',
+      club: 'Barcelona',
+      clubLogo: realmadrid,
       qrCode: './src/assets/qr-code1.png',
     },
     {
-      photo: './src/assets/player2.jpg',
-      name: 'Cristiano Ronaldo',
+      photo: mosalah,
+      name: 'Mohamed Salah',
       position: 'Forward',
-      club: 'Al-Nassr',
-      clubLogo: './src/assets/al-nassr-logo.png',
-      qrCode: './src/assets/qr-code2.png',
-    },
-    {
-      photo: './src/assets/player3.jpg',
-      name: 'Neymar Jr.',
-      position: 'Forward',
-      club: 'Al-Hilal',
-      clubLogo: './src/assets/al-hilal-logo.png',
+      club: 'Liverpool',
+      clubLogo: realmadrid,
       qrCode: './src/assets/qr-code3.png',
     },
     {
-      photo: './src/assets/player1.jpg',
-      name: 'Lionel Messi',
+      photo: lebronJames,
+      name: 'Lebron James',
       position: 'Forward',
-      club: 'Inter Miami',
-      clubLogo: './src/assets/inter-miami-logo.png',
+      club: 'Los Angeles Lakers',
+      clubLogo: realmadrid,
       qrCode: './src/assets/qr-code1.png',
     },
     {
-      photo: './src/assets/player2.jpg',
-      name: 'Cristiano Ronaldo',
+      photo: bonmati,
+      name: 'Aitana Bonmatí',
       position: 'Forward',
-      club: 'Al-Nassr',
-      clubLogo: './src/assets/al-nassr-logo.png',
+      club: 'Barcelona',
+      clubLogo: realmadrid,
       qrCode: './src/assets/qr-code2.png',
     },
     {
-      photo: './src/assets/player3.jpg',
-      name: 'Neymar Jr.',
+      photo: hanaGoda,
+      name: 'Hanah Goda',
       position: 'Forward',
-      club: 'Al-Hilal',
-      clubLogo: './src/assets/al-hilal-logo.png',
+      club: 'Al-Ahly',
+      clubLogo: realmadrid,
       qrCode: './src/assets/qr-code3.png',
     },
     {
-      photo: './src/assets/player1.jpg',
-      name: 'Lionel Messi',
+      photo: mbappe,
+      name: 'Killian Mbappe',
       position: 'Forward',
-      club: 'Inter Miami',
-      clubLogo: './src/assets/inter-miami-logo.png',
+      club: 'Real Madrid',
+      clubLogo: realmadrid,
       qrCode: './src/assets/qr-code1.png',
     },
     {
-      photo: './src/assets/player2.jpg',
-      name: 'Cristiano Ronaldo',
+      photo: messi,
+      name: 'Lionel Messi',
       position: 'Forward',
-      club: 'Al-Nassr',
-      clubLogo: './src/assets/al-nassr-logo.png',
+      club: 'Inter Miami',
+      clubLogo: realmadrid,
       qrCode: './src/assets/qr-code2.png',
     },
     {
-      photo: './src/assets/player3.jpg',
+      photo: neymar,
       name: 'Neymar Jr.',
       position: 'Forward',
       club: 'Al-Hilal',
-      clubLogo: './src/assets/al-hilal-logo.png',
+      clubLogo: realmadrid,
       qrCode: './src/assets/qr-code3.png',
     },
     
