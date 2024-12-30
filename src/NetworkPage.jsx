@@ -124,8 +124,9 @@ const NetworkPage = () => {
   ];
 
   return (
-    <div className="network-page">
+    <div>
       <Navbar />
+    <div className="network-page">
       <LeftMenu />
       <div className="cards-container">
         {players.map((player, index) => (
@@ -146,6 +147,7 @@ const NetworkPage = () => {
           <ProfileID />
           <RightMenu />
         </div>
+    </div>
     </div>
   );
 };
