@@ -1,7 +1,8 @@
 import React from 'react';
 import './LeftMenu.css';
-import { FaUser, FaSearch, FaCompass, FaPlus, FaCog, FaSignOutAlt, FaRegFileAlt, FaShoppingCart } from 'react-icons/fa';
+import { FaUser, FaSearch, FaCompass, FaPlus, FaCog, FaSignOutAlt, FaRegFileAlt, FaShoppingCart, FaInfo } from 'react-icons/fa';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { FaCircleInfo } from 'react-icons/fa6';
 
 const LeftMenu = () => {
   const navigate = useNavigate();
@@ -18,6 +19,7 @@ const LeftMenu = () => {
     { path: '/store', icon: <FaShoppingCart className="menu-icon" />, label: 'Store' },
     { path: '/settings', icon: <FaCog className="menu-icon" />, label: 'Settings' },
     { path: '/AIsearch', icon: <FaSearch className="menu-icon" />, label: 'AISearch' },
+    { path: '/aboutus', icon: <FaCircleInfo className="menu-icon" />, label: 'AboutUS' },
   ];
 
   return (

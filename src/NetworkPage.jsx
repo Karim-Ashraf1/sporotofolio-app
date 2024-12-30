@@ -115,6 +115,8 @@ const NetworkPage = () => {
       <div className="cards-container">
         {players.map((player, index) => (
           <NetworkCard
+
+          
             key={index}
             photo={player.photo}
             name={player.name}
