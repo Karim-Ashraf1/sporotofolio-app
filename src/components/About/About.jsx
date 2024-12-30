@@ -33,7 +33,7 @@ const AboutUs = () => {
       name: "Kareem Adel",
       image: KareemAdel,
       description:
-        "Innovative and detail-oriented Software Developer with a solid foundation in software engineering, problem-solving, and scalable system development.",
+        "Innovative and detail-oriented Software Developer with a solid foundation in software engineering, problem-solving.",
       github: "https://github.com/Kareemaadel",
       linkedin: "https://linkedin.com/in/kareem-adel-b4aa0a262/",
     },
@@ -41,7 +41,7 @@ const AboutUs = () => {
       name: "Abdelrahman El-Kady",
       image: AbdelrahmanElKady,
       description:
-        "Passionate and creative Game Developer with a strong foundation in game mechanics, immersive storytelling, and interactive experiences. ",
+        "Passionate and creative Game Developer with a strong foundation in game mechanics.",
       github: "https://github.com/itsamekadio",
       linkedin: "https://linkedin.com/in/abd-elrahman-elkady-a59187313/",
     },

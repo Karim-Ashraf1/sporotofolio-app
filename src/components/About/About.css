@@ -120,20 +120,11 @@ footer{
     text-decoration-thickness: 3px;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* About Section Styling */
 .about-section {
     text-align: center;
     padding: 40px 20px;
+    margin-left: 280px;
+    width: 1220px;
 }
 
 .about-title {
@@ -145,7 +136,7 @@ footer{
 
 .team-container {
     display: flex;
-    
+    height:600px;
     justify-content: space-between;
     gap: 20px;
 }
