@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Navbar.css';
-import SearchBar from './SearchBar';
-import { getName } from "./Data/Data";
+import SearchBar from '../SearchBar/SearchBar';
+import { getName } from "../Data/Data";
 import { FaBell,FaPaperPlane } from 'react-icons/fa';
 
 const Navbar = () => {

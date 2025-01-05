@@ -1,8 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
 import "./AISearch.css";
-import Navbar from "../Navbar";
-import LeftMenu from "../LeftMenu";
+import Navbar from "../Navbar/Navbar";
+import LeftMenu from "../LeftMenu/LeftMenu";
 
 function AISearch() {
   const [query, setQuery] = useState("");

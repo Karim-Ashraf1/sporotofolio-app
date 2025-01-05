@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Settings.css";
-import LeftMenu from "../LeftMenu";
-import Navbar from "../Navbar";
+import LeftMenu from "../LeftMenu/LeftMenu";
+import Navbar from "../Navbar/Navbar";
 import { getName, setName } from "../Data/Data";
 import {getBio, setBio} from "../Data/Data";
 import {getEmail, setEmail} from "../Data/Data";

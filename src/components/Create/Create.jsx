@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Create.css';
-import LeftMenu from "../LeftMenu";
-import Navbar from "../Navbar";
+import LeftMenu from "../LeftMenu/LeftMenu";
+import Navbar from "../Navbar/Navbar";
 import { FaClock, FaFile, FaVideo, FaExpand } from 'react-icons/fa';
 
 const Create = () => {

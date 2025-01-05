@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 import "./CoachProfile.css";
-import Navbar from '../Navbar';
-import LeftMenu from "../LeftMenu";
+import Navbar from '../Navbar/Navbar';
+import LeftMenu from "../LeftMenu/LeftMenu";
 import { FaCog, FaCheckCircle } from 'react-icons/fa';
 import { getName } from "../Data/Data";
 import { getBio } from "../Data/Data";

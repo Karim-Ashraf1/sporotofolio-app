@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import LeftMenu from './components/LeftMenu';
-import Post from './components/Post';
-import RightMenu from './components/RightMenu';
-import ProfileID from './components/ProfileID';
+import Navbar from '../../components/Navbar/Navbar';
+import LeftMenu from '../../components/LeftMenu/LeftMenu';
+import Post from '../../components/Post/Post';
+import RightMenu from '../../components/RightMenu/RightMenu';
+import ProfileID from '../../components/Profile/ProfileID';
 import './Home.css';
 
 const Home = () => {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Store.css";
-import LeftMenu from '../LeftMenu';
-import Navbar from "../Navbar"; 
+import LeftMenu from '../LeftMenu/LeftMenu';
+import Navbar from "../Navbar/Navbar"; 
 import Banner from "../Banner/Banner";
 
 import NasserKit from "../../assets/images/nassr_kit.png";

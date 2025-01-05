@@ -1,26 +1,26 @@
 import React from 'react';
-import NetworkCard from './components/NetworkCard';
-import Navbar from './components/Navbar';
+import NetworkCard from '../../components/NetworkCard/NetworkCard';
+import Navbar from '../../components/Navbar/Navbar';
 import './NetworkPage.css';
-import LeftMenu from './components/LeftMenu';
-import RightMenu from './components/RightMenu';
-import ProfileID from './components/ProfileID';
+import LeftMenu from '../../components/LeftMenu/LeftMenu';
+import RightMenu from '../../components/RightMenu/RightMenu';
+import ProfileID from '../../components/Profile/ProfileID';
 
-import bellingham from './assets/images/bellingham.jpeg';
-import vini from './assets/images/vini.jpeg';
-import mbappe from './assets/images/mbappe.jpeg';
-import marmoush from './assets/images/marmoush.jpeg';
-import lamine from './assets/images/lamine.jpeg';
-import ronaldo from './assets/images/account.png';
-import neymar from './assets/images/neymar.jpeg';
-import messi from './assets/images/messi.jpeg';
-import mosalah from './assets/images/mosalah.jpeg';
-import lebronJames from './assets/images/lebron.jpg';
-import bonmati from './assets/images/bonmati.jpeg';
-import hanaGoda from './assets/images/hanagoda.jpeg';
+import bellingham from '../../assets/images/bellingham.jpeg';
+import vini from '../../assets/images/vini.jpeg';
+import mbappe from '../../assets/images/mbappe.jpeg';
+import marmoush from '../../assets/images/marmoush.jpeg';
+import lamine from '../../assets/images/lamine.jpeg';
+import ronaldo from '../../assets/images/account.png';
+import neymar from '../../assets/images/neymar.jpeg';
+import messi from '../../assets/images/messi.jpeg';
+import mosalah from '../../assets/images/mosalah.jpeg';
+import lebronJames from '../../assets/images/lebron.jpg';
+import bonmati from '../../assets/images/bonmati.jpeg';
+import hanaGoda from '../../assets/images/hanagoda.jpeg';
 
 
-import realmadrid from './assets/images/Real_Madrid_CF.svg.webp';
+import realmadrid from '../../assets/images/Real_Madrid_CF.svg.webp';
 
 const NetworkPage = () => {
   const players = [

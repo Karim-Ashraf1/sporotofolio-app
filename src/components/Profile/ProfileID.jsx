@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProfileID.css';
-import { getName } from "./Data/Data";
+import { getName } from "../Data/Data";
 
 const ProfileID = () => {
    const name = getName();

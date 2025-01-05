@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 import "./PlayerProfile.css";
-import Navbar from '../Navbar';
-import LeftMenu from "../LeftMenu";
+import Navbar from '../Navbar/Navbar';
+import LeftMenu from "../LeftMenu/LeftMenu";
 import { FaCog, FaCheckCircle } from 'react-icons/fa';
 import { getName } from "../Data/Data";
 import { getBio } from "../Data/Data";
@@ -55,7 +55,7 @@ const PlayerProfile = () => {
       {/* <RightMenu /> */}
         <div className="profile-section">
             <div className="profile-cover-photo">
-              <img src="src\assets\cover.webp" alt="Cover" className="pofile-cover-img" />
+              <img src="src\assets\images\cover.webp" alt="Cover" className="pofile-cover-img" />
             </div>
             <div className="pprofile-header">
             <img
