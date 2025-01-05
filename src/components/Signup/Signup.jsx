@@ -68,7 +68,7 @@ const Signup = () => {
                 <div className="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" style={{ background: "#2EB62B" }}>
                     <div className="featured-image mb-3">
                         <img 
-                            src="src\assets\Ronaldo.png" 
+                            src="src\assets\images\Ronaldo.png" 
                             className="img-fluid ronaldo"
                             style={{ width: "500px" }} 
                             alt="Cristiano Ronaldo" 
@@ -135,7 +135,7 @@ const Signup = () => {
                             <div className="input-group mb-3">
                                 <button className="btn btn-lg btn-light w-100 fs-6">
                                     <img 
-                                        src="src\assets\google.png" 
+                                        src="src\assets\images\google.png" 
                                         style={{ width: "20px" }} 
                                         className="me-2" 
                                         alt="Google Logo"

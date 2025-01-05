@@ -1,13 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./About.css";
-import Navbar from "../Navbar";
-import LeftMenu from "../LeftMenu";
+import Navbar from "../Navbar/Navbar";
+import LeftMenu from "../LeftMenu/LeftMenu";
 
-import KarimAshraf from "../../assets/karimashraf.png";
-import ZeyadWaleed from "../../assets/profile pic.png";
-import KareemAdel from "../../assets/kareemadel.png";
-import AbdelrahmanElKady from "../../assets/elkady.png";
+import KarimAshraf from "../../assets/images/karimashraf.png";
+import ZeyadWaleed from "../../assets/images/profile pic.png";
+import KareemAdel from "../../assets/images/kareemadel.png";
+import AbdelrahmanElKady from "../../assets/images/elkady.png";
 
 const AboutUs = () => {
   const navigate = useNavigate();

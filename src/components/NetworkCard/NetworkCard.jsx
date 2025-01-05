@@ -5,7 +5,7 @@ const NetworkCard = ({ photo, name, position, club, clubLogo, qrCode }) => {
   return (
     <div className="player-card">
       <div className="cover-photo">
-        <img src="./src/assets/cover.webp" alt="Cover" className="cover-img" />
+        <img src="./src/assets/images/cover.webp" alt="Cover" className="cover-img" />
       </div>
       <div className="player-photo-container">
         <img src={photo} alt={`${name}'s Photo`} className="player-photo" />
@@ -20,7 +20,7 @@ const NetworkCard = ({ photo, name, position, club, clubLogo, qrCode }) => {
               <img src={clubLogo} alt={`${club} Logo`} className="club-logo" />
             </div>
           </div>
-          <img src="./src/assets/qr-code.png" alt="QR Code" className="qr-code" />
+          <img src="./src/assets/images/qr-code.png" alt="QR Code" className="qr-code" />
         </div>
         <div className="action-buttons">
           <button className="follow-button">Follow</button>

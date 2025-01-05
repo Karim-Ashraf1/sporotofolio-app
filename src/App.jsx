@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes, Navigate, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
-import Home from "./Home";
+import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
 import ForgetPassword from "./components/Forget-Password/ForgetPassword";
 import CoachProfile from "./components/CoachProfile/CoachProfile";
 import PlayerProfile from "./components/PlayerProfile/PlayerProfile";
-import NetworkPage from "./NetworkPage";
+import NetworkPage from "./components/Network/NetworkPage";
 import Store from "./components/Store/Store";
 import Create from "./components/Create/Create";
 import Policy from "./components/Policies/Policy";

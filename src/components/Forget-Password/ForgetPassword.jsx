@@ -23,7 +23,7 @@ const ForgetPassword = () => {
                 <div className="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" style={{ background: "#2EB62B" }}>
                     <div className="featured-image mb-3">
                         <img 
-                            src="src/assets/Ronaldo.png" 
+                            src="src/assets/images/Ronaldo.png" 
                             className="img-fluid ronaldo"
                             style={{ width: "500px" }} 
                             alt="Cristiano Ronaldo" 

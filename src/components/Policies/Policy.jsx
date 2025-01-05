@@ -1,7 +1,7 @@
 import React from "react";
 import "./Policy.css";
-import LeftMenu from "../LeftMenu";
-import Navbar from "../Navbar";
+import LeftMenu from "../LeftMenu/LeftMenu";
+import Navbar from "../Navbar/Navbar";
 
 const Policy = () => {
     return (
