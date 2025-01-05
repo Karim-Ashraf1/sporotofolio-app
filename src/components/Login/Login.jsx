@@ -40,7 +40,7 @@ const Login = ({ onLogin }) => {
                 {/* Left Section */}
                 <div className="col-md-6 rounded-4 d-flex flex-column justify-content-center align-items-center left-box">
                     <div className="featured-image mb-3">
-                        <img src="src\assets\Ronaldo.png" className="img-fluid ronaldo" alt="Cristiano Ronaldo" />
+                        <img src="src\assets\images\Ronaldo.png" className="img-fluid ronaldo" alt="Cristiano Ronaldo" />
                     </div>
                     <small className="text-white text-wrap text-center quote">
                         "Maybe someone doesn't like me because I'm too good" <br /> - Cristiano Ronaldo, 2007
@@ -102,7 +102,7 @@ const Login = ({ onLogin }) => {
                             <div className="input-group mb-3">
                                 <button className="btn btn-lg btn-light w-100 fs-6">
                                     <img
-                                        src="src\assets\google.png"
+                                        src="src\assets\images\google.png"
                                         style={{ width: "20px" }}
                                         className="me-2"
                                         alt="Google Logo"

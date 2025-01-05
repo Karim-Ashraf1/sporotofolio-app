@@ -4,12 +4,12 @@ import './RightMenu.css';
 const RightMenu = () => {
   const suggestedAccounts = [
     {
-      photo: './src/assets/account.png',
+      photo: './src/assets/images/account.png',
       name: 'Cristiano Ronaldo',
       bio: 'Football Player',
     },
     {
-      photo: './src/assets/account.png',
+      photo: './src/assets/images/account.png',
       name: 'Cristiano Ronaldo',
       bio: 'Football Coach',
     },

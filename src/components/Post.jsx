@@ -6,7 +6,7 @@ const Post = () => {
   return (
     <div className="post">
       <div className="post-header">
-        <img src="src/assets/profilepostpic.png" alt="Profile" className="post-profile-pic" />
+        <img src="src/assets/images/profilepostpic.png" alt="Profile" className="post-profile-pic" />
         <div className="post-user-info">
           <p className="post-user-name">Real Madrid C.F.</p>
           <p className="post-time">2h</p>
@@ -19,7 +19,7 @@ const Post = () => {
         #RMCity #RayoRealMadrid
         </p>
 
-        <img src="src/assets/post.png" alt="Post content" className="post-image" />
+        <img src="src/assets/images/post.png" alt="Post content" className="post-image" />
       </div>
 
       <div className="post-actions">

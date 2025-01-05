@@ -55,11 +55,11 @@ const CoachProfile = () => {
       {/* <RightMenu /> */}
         <div className="profile-section">
             <div className="profile-cover-photo">
-              <img src="src\assets\cover.webp" alt="Cover" className="pofile-cover-img" />
+              <img src="src\assets\images\cover.webp" alt="Cover" className="pofile-cover-img" />
             </div>
             <div className="pprofile-header">
             <img
-              src="src\assets\profile pic.png"
+              src="src\assets\images\profile pic.png"
               alt="Profile Picture"
               className="pprofile-picture"
             />

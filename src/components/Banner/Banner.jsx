@@ -4,9 +4,9 @@ import './Banner.css';
 const Banner = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const images = [
-        "../../src/assets/banner1.png", 
-        "../../src/assets/banner2.png", 
-        "../../src/assets/banner3.png",
+        "../../src/assets/images/banner1.png", 
+        "../../src/assets/images/banner2.png", 
+        "../../src/assets/images/banner3.png",
     ];
 
     useEffect(() => {

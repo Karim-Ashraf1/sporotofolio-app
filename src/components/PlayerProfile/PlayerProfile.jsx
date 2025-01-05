@@ -59,7 +59,7 @@ const PlayerProfile = () => {
             </div>
             <div className="pprofile-header">
             <img
-              src="src\assets\profile pic.png"
+              src="src\assets\images\profile pic.png"
               alt="Profile Picture"
               className="pprofile-picture"
             />

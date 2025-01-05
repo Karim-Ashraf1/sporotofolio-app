@@ -4,14 +4,14 @@ import LeftMenu from '../LeftMenu';
 import Navbar from "../Navbar"; 
 import Banner from "../Banner/Banner";
 
-import NasserKit from "../../assets/nassr_kit.png";
-import BarcelonaKit from "../../assets/real-madrid-white.jpg";
-import ZamalekKit from "../../assets/4_b7699d72-a48a-4d14-a041-bb98feac8a5e.webp";
-import Jabulani from "../../assets/real-madrid-third-shirt.jpg";
-import LM10Boots from "../../assets/juventus-home-shirt-24.jpg";
-import shrimp from "../../assets/SEEK4218_0.jpg";
-import ronaldoshoes1 from "../../assets/ronaldo-shoes1.jpeg";
-import ronaldoshoes2 from "../../assets/ronaldo-shoes2.jpg";
+import NasserKit from "../../assets/images/nassr_kit.png";
+import BarcelonaKit from "../../assets/images/real-madrid-white.jpg";
+import ZamalekKit from "../../assets/images/4_b7699d72-a48a-4d14-a041-bb98feac8a5e.webp";
+import Jabulani from "../../assets/images/real-madrid-third-shirt.jpg";
+import LM10Boots from "../../assets/images/juventus-home-shirt-24.jpg";
+import shrimp from "../../assets/images/SEEK4218_0.jpg";
+import ronaldoshoes1 from "../../assets/images/ronaldo-shoes1.jpeg";
+import ronaldoshoes2 from "../../assets/images/ronaldo-shoes2.jpg";
 
 const Store = () => {
     const [cartItems, setCartItems] = useState([
