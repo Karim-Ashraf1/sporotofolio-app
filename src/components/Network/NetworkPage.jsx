@@ -21,9 +21,37 @@ import hanaGoda from '../../assets/images/hanagoda.jpeg';
 
 
 import realmadrid from '../../assets/images/Real_Madrid_CF.svg.webp';
+import barcelona from '../../assets/images/barca.png';
+import mancity from '../../assets/images/mancity.png';
 
 const NetworkPage = () => {
   const players = [
+
+    {
+      photo: mbappe,
+      name: 'Killian Mbappe',
+      position: 'Forward',
+      club: 'Real Madrid',
+      clubLogo: realmadrid,
+      qrCode: './src/assets/qr-code1.png',
+    },
+    {
+      photo: lamine,
+      name: 'Lamine Yamal',
+      position: 'Forward',
+      club: 'Barcelona',
+      clubLogo: barcelona,
+      qrCode: './src/assets/qr-code1.png',
+    },
+    
+    {
+      photo: marmoush,
+      name: 'Marmoush',
+      position: 'Forward',
+      club: 'Man City',
+      clubLogo: mancity,
+      qrCode: './src/assets/qr-code3.png',
+    },
     {
       photo: ronaldo,
       name: 'Cristiano Ronaldo',
@@ -31,38 +59,6 @@ const NetworkPage = () => {
       club: 'Al-Nassr',
       clubLogo: realmadrid,
       qrCode: './src/assets/qr-code2.png',
-    },
-    {
-      photo: bellingham,
-      name: 'Jude Bellingham',
-      position: 'Midfielder',
-      club: 'Real Madrid',
-      clubLogo: realmadrid,
-      qrCode: './src/assets/qr-code1.png',
-    },
-    {
-      photo: vini,
-      name: 'Vinicius Junior (Vini Jr.)',
-      position: 'Forward',
-      club: 'Real Madrid',
-      clubLogo: realmadrid,
-      qrCode: './src/assets/qr-code2.png',
-    },
-    {
-      photo: marmoush,
-      name: 'Omar Marmoush',
-      position: 'Forward',
-      club: 'Frankfurt',
-      clubLogo: realmadrid,
-      qrCode: './src/assets/qr-code3.png',
-    },
-    {
-      photo: lamine,
-      name: 'Lamine Yamal',
-      position: 'Forward',
-      club: 'Barcelona',
-      clubLogo: realmadrid,
-      qrCode: './src/assets/qr-code1.png',
     },
     {
       photo: mosalah,
@@ -73,20 +69,20 @@ const NetworkPage = () => {
       qrCode: './src/assets/qr-code3.png',
     },
     {
+      photo: bellingham,
+      name: 'Jude Bellingham',
+      position: 'Midfielder',
+      club: 'Real Madrid',
+      clubLogo: realmadrid,
+      qrCode: './src/assets/qr-code1.png',
+    },
+    {
       photo: lebronJames,
       name: 'Lebron James',
       position: 'Forward',
       club: 'Los Angeles Lakers',
       clubLogo: realmadrid,
       qrCode: './src/assets/qr-code1.png',
-    },
-    {
-      photo: bonmati,
-      name: 'Aitana Bonmatí',
-      position: 'Forward',
-      club: 'Barcelona',
-      clubLogo: realmadrid,
-      qrCode: './src/assets/qr-code2.png',
     },
     {
       photo: hanaGoda,
@@ -97,12 +93,21 @@ const NetworkPage = () => {
       qrCode: './src/assets/qr-code3.png',
     },
     {
-      photo: mbappe,
-      name: 'Killian Mbappe',
+      photo: vini,
+      name: 'Vinicius Junior (Vini Jr.)',
       position: 'Forward',
       club: 'Real Madrid',
       clubLogo: realmadrid,
-      qrCode: './src/assets/qr-code1.png',
+      qrCode: './src/assets/qr-code2.png',
+    },
+
+    {
+      photo: bonmati,
+      name: 'Aitana Bonmatí',
+      position: 'Forward',
+      club: 'Barcelona',
+      clubLogo: realmadrid,
+      qrCode: './src/assets/qr-code2.png',
     },
     {
       photo: messi,

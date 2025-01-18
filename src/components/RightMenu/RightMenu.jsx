@@ -9,8 +9,8 @@ const RightMenu = () => {
       bio: 'Football Player',
     },
     {
-      photo: './src/assets/images/account.png',
-      name: 'Cristiano Ronaldo',
+      photo: './src/assets/images/slot.jpeg',
+      name: 'Arne Slot',
       bio: 'Football Coach',
     },
   ];
